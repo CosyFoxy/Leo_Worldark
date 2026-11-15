@@ -2,6 +2,7 @@
 
  xhk_pc_worldark: "World Ark"
  xhk_pc_worldark_desc: "$pc_ark_desc$"
+ mod_xhk_pc_worldark_habitability: "$xhk_pc_worldark$ Habitability"
 
  xhk_empty_string: ""
  #########################################################################################################################################################################
