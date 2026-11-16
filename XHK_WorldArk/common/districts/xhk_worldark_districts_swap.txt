@@ -109,7 +109,7 @@ district_xhk_worldark_research_engineering = {
 ## AMENITIES SWAPS
 district_xhk_worldark_amenities_museum = {
     icon = district_resort_museum
-    overlay_icon = GFX_district_amenities
+    overlay_icon = GFX_xhk_worldark_specimen_spec
     district_background = district_resort_museum
     gridbox = district_arcology_leisure
     inline_script = {
@@ -125,7 +125,7 @@ district_xhk_worldark_amenities_museum = {
 }
 district_xhk_worldark_amenities_museum_dystopian = {
     icon = district_resort_museum
-    overlay_icon = GFX_district_amenities
+    overlay_icon = GFX_xhk_worldark_specimen_spec
     district_background = district_resort_museum
     gridbox = district_arcology_leisure
     inline_script = {
