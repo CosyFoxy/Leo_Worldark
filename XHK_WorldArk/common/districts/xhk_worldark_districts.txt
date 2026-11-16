@@ -1578,8 +1578,8 @@ district_xhk_worldark_sentientmetal = {
 		}
 	}
 
-	triggered_name = {
-		text = flavor_xhk_worldark_sentientmetal_name
+	inline_script = {
+		script = xhk_worldark/district_flavor/sentientmetal_flavor
 	}
 }
 

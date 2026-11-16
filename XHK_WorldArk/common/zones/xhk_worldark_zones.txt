@@ -1511,11 +1511,12 @@ zone_xhk_worldark_negativemass = {
 
 ## SENTIENT METAL
 ###########################################################
+# standard jobs
 zone_xhk_worldark_sentientmetal = {
 	icon = GFX_giga_district_specialization_sentient_metal
 	inline_script = {
 		script = xhk_worldark/zones/zone_common
-		NUM_BUILDINGS = 1
+		NUM_BUILDINGS = 3
 		UNLOCK = ""
 		POTENTIAL = ""
 	}
@@ -1548,6 +1549,62 @@ zone_xhk_worldark_sentientmetal = {
 		}
 		modifier = {
 			job_ehof_cultivation_drone_add = 150
+		}
+	}
+
+	zone_sets = {
+		xhk_worldark_sentientmetal
+	}
+}
+# hull increase
+zone_xhk_worldark_sentientmetal_hull = {
+	icon = GFX_district_specialization_ark_military
+	inline_script = {
+		script = xhk_worldark/zones/zone_common
+		NUM_BUILDINGS = 3
+		UNLOCK = ""
+		POTENTIAL = ""
+	}
+
+	include = {
+		building_ehof_sm_forge_1
+		building_ehof_sm_forge_2
+	}
+	included_building_sets = {
+		ehof
+	}
+
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = no
+			}
+		}
+		modifier = {
+			job_ehof_cultivator_add = 50
+		}
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				is_gestalt = yes
+			}
+		}
+		modifier = {
+			job_ehof_cultivation_drone_add = 50
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		modifier = {
+			planet_cultivators_giga_sr_sentient_metal_produces_add = -2
+			# display only fake modifier
+            ship_hull_from_cultivators = @giga_cultivator_hull_mult
 		}
 	}
 

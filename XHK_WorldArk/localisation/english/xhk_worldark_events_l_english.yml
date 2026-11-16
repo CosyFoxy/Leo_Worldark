@@ -224,9 +224,10 @@
  xhk_worldark_docs_districts_district_negativemass: "\n£giga_sr_negative_mass£§G$district_xhk_worldark_negativemass$§!:  Provides §I[get_ehof_energy_converter]§! jobs."
  xhk_worldark_docs_districts_zone_negativemass: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_negativemass$§!:  Adds §I[get_ehof_energy_converter]§! jobs."
 
- xhk_worldark_docs_districts_desc_sentientmetal: "$xhk_worldark_docs_districts_district_sentientmetal$$xhk_worldark_docs_districts_zone_sentientmetal$"
+ xhk_worldark_docs_districts_desc_sentientmetal: "$xhk_worldark_docs_districts_district_sentientmetal$$xhk_worldark_docs_districts_zone_sentientmetal$$xhk_worldark_docs_districts_zone_sentientmetal_hull$"
  xhk_worldark_docs_districts_district_sentientmetal: "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides §I[get_ehof_cultivator]§! jobs."
  xhk_worldark_docs_districts_zone_sentientmetal: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds §I[get_ehof_cultivator]§! jobs."
+ xhk_worldark_docs_districts_zone_sentientmetal_hull: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal_hull$§!:  Provides §Y$xhk_pc_worldark$ Hull§! bonuses, but less £giga_sr_sentient_metal£ production."
 
  ##########
  # UTILITY

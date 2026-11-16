@@ -455,6 +455,9 @@
  zone_xhk_worldark_sentientmetal: "$flavor_xhk_worldark_sentientmetal_name$"
  zone_xhk_worldark_sentientmetal_desc: "$district_xhk_worldark_sentientmetal_desc$"
 
+ zone_xhk_worldark_sentientmetal_hull: "Living Bulkheads"
+ zone_xhk_worldark_sentientmetal_hull_desc: "Living metal is integrated straight into the ark's outer plating, where it slowly knits itself into the hull and increases its durability."
+
  zone_xhk_worldark_storage: "$district_xhk_worldark_storage$"
  zone_xhk_worldark_storage_desc: "$district_xhk_worldark_storage_desc$"
 

@@ -296,3 +296,11 @@ giga_birch_manager_physma_fortress_efficiency = {
 		has_building = building_xhk_worldark_birch_physma_fortress
 	}
 }
+
+giga_cultivator_hull_buff_trigger = {
+	colony? = {
+        has_zone = {
+            zone = zone_xhk_worldark_sentientmetal_hull
+        }
+	}
+}
