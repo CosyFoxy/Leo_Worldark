@@ -207,3 +207,17 @@ defined_text = {
 	}
 	default = xhk_worldark_docs_compat_not_loaded
 }
+defined_text = {
+	name = xhk_worldark_getCompatDoc_PDArcologies
+	inline_script = {
+		script = generic_parts/giga_toggled_code
+		toggle = @has_planetary_diversity_more_arcologies
+		code = "
+			text = {
+				trigger = { always = yes }
+				localization_key = xhk_worldark_docs_compat_pd_arcologies_loaded
+			}
+		"
+	}
+	default = xhk_worldark_docs_compat_not_loaded
+}

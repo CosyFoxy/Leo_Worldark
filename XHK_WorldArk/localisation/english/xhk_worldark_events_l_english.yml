@@ -227,7 +227,7 @@
  xhk_worldark_docs_districts_desc_sentientmetal: "$xhk_worldark_docs_districts_district_sentientmetal$$xhk_worldark_docs_districts_zone_sentientmetal$$xhk_worldark_docs_districts_zone_sentientmetal_hull$"
  xhk_worldark_docs_districts_district_sentientmetal: "\n£giga_sr_sentient_metal£§G$district_xhk_worldark_sentientmetal$§!:  Provides §I[get_ehof_cultivator]§! jobs."
  xhk_worldark_docs_districts_zone_sentientmetal: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal$§!:  Adds §I[get_ehof_cultivator]§! jobs."
- xhk_worldark_docs_districts_zone_sentientmetal_hull: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal_hull$§!:  Provides §Y$xhk_pc_worldark$ Hull§! bonuses, but less £giga_sr_sentient_metal£ production."
+ xhk_worldark_docs_districts_zone_sentientmetal_hull: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_sentientmetal_hull$§!:  Provides §Y$xhk_pc_worldark$ Hull§! bonuses, but less production."
 
  ##########
  # UTILITY
@@ -362,10 +362,9 @@
  xhk_worldark_docs_core_spinal_7: "\n§C$sm_xhk_worldark_corespinal_shipyard$§!: Allows for nomad celestial construction straight from the shipyards"
 
  ####################
- # CROSSMOD
- #TODO: rename this to be integration instead of crossmod for 4.6, so it doesnt break ppls saves
- xhk_worldark_docs_crossmod: "8) Special Integration Situations"
- xhk_worldark_docs_crossmod_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_birch_integration$"
+ # INTEGRATION
+ xhk_worldark_docs_integration: "8) Special Integration Situations"
+ xhk_worldark_docs_integration_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_birch_integration$"
  xhk_worldark_docs_integration_init: "The $xhk_pc_worldark$ can research specific habitables to gain some of their bonuses through a lengthy situation."
 
  xhk_worldark_docs_birch_integration: "\n\n§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
@@ -374,14 +373,16 @@
 
  ####################
  # CROSS-MOD COMPATIBILITY
- #TODO: add PD arcologies stuff in 4.6
  xhk_worldark_docs_compat: "9) Cross-Mod Compatibility"
- xhk_worldark_docs_compat_desc: "$xhk_worldark_docs_compat_init$$xhk_worldark_docs_compat_ancient_empires$"
+ xhk_worldark_docs_compat_desc: "$xhk_worldark_docs_compat_init$$xhk_worldark_docs_compat_ancient_empires$$xhk_worldark_docs_compat_pd_arcologies$"
  xhk_worldark_docs_compat_init: "The $xhk_pc_worldark$ has special compatibility hooks for the following mods:"
  xhk_worldark_docs_compat_not_loaded: "- §RMod not loaded§!"
 
  xhk_worldark_docs_compat_ancient_empires: "\n\n§CAncient Empires:§!\n[xhk_worldark_getCompatDoc_AncientEmpires]"
  xhk_worldark_docs_compat_ancient_empires_loaded: "- Owned §YAncient Empire Ringworlds§! are §Gnot consumed§! by the $xhk_pc_worldark$."
+
+ xhk_worldark_docs_compat_pd_arcologies: "\n\n§CPlanetary Diversity - More Arcologies:§!\n[xhk_worldark_getCompatDoc_PDArcologies]"
+ xhk_worldark_docs_compat_pd_arcologies_loaded: "- The §Y$xhk_pc_worldark$§! §Gdoes not lose districts§! to §YPD Arcologies§! capital deposits."
 
 
 

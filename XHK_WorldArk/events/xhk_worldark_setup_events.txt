@@ -562,8 +562,8 @@ country_event = {
 		}
         create_point_of_interest = {
             id = xhk_worldark_docs_chain.8
-            name = "xhk_worldark_docs_crossmod"
-            desc = "xhk_worldark_docs_crossmod_desc"
+            name = "xhk_worldark_docs_integration"
+            desc = "xhk_worldark_docs_integration_desc"
             event_chain = "xhk_worldark_docs_chain"
             location = no_scope
         }

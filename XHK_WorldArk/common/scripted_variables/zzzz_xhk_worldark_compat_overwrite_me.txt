@@ -4,3 +4,6 @@
 
 # Ancient Empires
 @has_ancient_empire = 0
+
+# Planetary Diversity - More Arcologies
+@has_planetary_diversity_more_arcologies = 0
