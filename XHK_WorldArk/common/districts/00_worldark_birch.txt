@@ -45,6 +45,10 @@ district_xhk_worldark_birch = {
         slot_xhk_worldark_stratia
     }
 
+	planet_modifier = {
+		planet_max_districts_mult = 0.05
+	}
+
 	triggered_name = {
 		trigger = {
 			has_carrier_flag = xhk_worldark_currently_bircharking
