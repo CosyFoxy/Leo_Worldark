@@ -110,8 +110,8 @@ xhk_worldark_situation_birchark = {
         }
 
 		modifier = {
-			country_energy_produces_mult = -0.15
-			country_alloys_produces_mult = -0.15
+			country_energy_produces_mult = -0.20
+			country_alloys_produces_mult = -0.20
 		}
 		resources = {
 			upkeep = {

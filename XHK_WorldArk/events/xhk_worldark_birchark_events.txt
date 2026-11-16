@@ -256,11 +256,11 @@ situation_event = {
 	show_sound = event_ex_started
 	is_triggered_only = yes
 
-	immediate = {
-		destroy_situation = this
-	}
 	option = {
 		name = xhk_worldark_birchark.1010.a
 		custom_tooltip = xhk_worldark_birchark.1010.att
+		hidden_effect = {
+			destroy_situation = this
+		}
 	}
 }
