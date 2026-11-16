@@ -1,3 +1,6 @@
+
+@biomass_cost = 50
+## HAHAHA I HAVE TO DEFINE THIS HERE STUPID VAR
 district_mindlink = {
 	icon = district_city
 	overlay_icon = GFX_district_feral_insight
