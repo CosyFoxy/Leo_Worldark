@@ -1986,6 +1986,20 @@ zone_xhk_worldark_orykta = {
 	planet_modifier = {
 		zone_building_slots_add = 2
 	}
+	# managers
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no }
+		}
+		job_giga_birch_orykta_manager_add = 200
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+		}
+		job_giga_birch_orykta_manager_drone_add = 200
+	}
+
 	# this adds the general stuff per manager, but not the specific zone job eff bonuses
 	triggered_planet_modifier = {
 		potential = { always = yes }
@@ -2040,6 +2054,20 @@ zone_xhk_worldark_ktisma = {
 	planet_modifier = {
 		zone_building_slots_add = 2
 	}
+	# managers
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no }
+		}
+		job_giga_birch_ktisma_manager_add = 200
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+		}
+		job_giga_birch_ktisma_manager_drone_add = 200
+	}
+
 	# this adds the general stuff per manager, but not the specific zone job eff bonuses
 	triggered_planet_modifier = {
 		potential = { always = yes }
@@ -2094,6 +2122,20 @@ zone_xhk_worldark_physma = {
 	planet_modifier = {
 		zone_building_slots_add = 2
 	}
+	# managers
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = no }
+		}
+		job_giga_birch_physma_manager_add = 200
+	}
+	triggered_district_planet_modifier = {
+		potential = {
+			owner? = { is_gestalt = yes }
+		}
+		job_giga_birch_physma_manager_drone_add = 200
+	}
+
 	# this adds the general stuff per manager, but not the specific zone job eff bonuses
 	triggered_planet_modifier = {
 		potential = { always = yes }

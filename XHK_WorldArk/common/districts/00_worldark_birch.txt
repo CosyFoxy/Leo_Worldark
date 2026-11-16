@@ -45,52 +45,6 @@ district_xhk_worldark_birch = {
         slot_xhk_worldark_stratia
     }
 
-    # governance
-    triggered_planet_modifier = {
-        potential = {
-			owner? = { is_gestalt = no }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
-		}
-        job_giga_birch_orykta_manager_add = 200
-    }
-	triggered_planet_modifier = {
-		potential = {
-			owner? = { is_gestalt = yes }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_orykta }
-		}
-		job_giga_birch_orykta_manager_drone_add = 200
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			owner? = { is_gestalt = no }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
-		}
-		job_giga_birch_ktisma_manager_add = 200
-	}
-	triggered_planet_modifier = {
-		potential = {
-			owner? = { is_gestalt = yes }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_ktisma }
-		}
-		job_giga_birch_ktisma_manager_drone_add = 200
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			owner? = { is_gestalt = no }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma }
-		}
-		job_giga_birch_physma_manager_add = 200
-	}
-	triggered_planet_modifier = {
-		potential = {
-			owner? = { is_gestalt = yes }
-			NOT = { has_carrier_flag = xhk_worldark_birch_no_physma }
-		}
-		job_giga_birch_physma_manager_drone_add = 200
-	}
-
 	triggered_name = {
 		trigger = {
 			has_carrier_flag = xhk_worldark_currently_bircharking
