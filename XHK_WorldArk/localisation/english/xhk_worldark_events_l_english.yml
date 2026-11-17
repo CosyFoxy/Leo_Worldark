@@ -364,12 +364,16 @@
  ####################
  # INTEGRATION
  xhk_worldark_docs_integration: "8) Special Integration Situations"
- xhk_worldark_docs_integration_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_birch_integration$"
+ xhk_worldark_docs_integration_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_flusion_integration$$xhk_worldark_docs_birch_integration$"
  xhk_worldark_docs_integration_init: "The $xhk_pc_worldark$ can research specific habitables to gain some of their bonuses through a lengthy situation."
 
  xhk_worldark_docs_birch_integration: "\n\n§C------$xhk_worldark_situation_birchark$---------------------------§!\n$xhk_worldark_docs_birch_integration_req$\n$xhk_worldark_docs_birch_integration_rew$"
  xhk_worldark_docs_birch_integration_req: "§3Requirements:§! §IAeternum must be defeated§!, or someone must §Iconstruct and colonize§! a Birch World."
  xhk_worldark_docs_birch_integration_rew: "§BRewards:§! A special district that provides §GBirch Insula Manager§! jobs and §GBirch Focus Buildings§!."
+
+ xhk_worldark_docs_flusion_integration: "\n\n§C------$xhk_worldark_situation_flusionark$---------------------------§!\n$xhk_worldark_docs_flusion_integration_req$\n$xhk_worldark_docs_flusion_integration_rew$"
+ xhk_worldark_docs_flusion_integration_req: "§3Requirements:§! The §IKaiser must be defeated§! and §IFlusion§! must still be habitable."
+ xhk_worldark_docs_flusion_integration_rew: "§BRewards:§! Upgrades §Y$zone_xhk_worldark_urban$§!, giving §Gextra housing§!, §Gdistricts§!, and §Gupkeep reduction§!."
 
  ####################
  # CROSS-MOD COMPATIBILITY

@@ -506,3 +506,18 @@ d_xhk_worldark_logistic_ship_bay = {
     drop_weight = { weight = 0 }
     potential = { always = no }
 }
+
+## FLUSION INTEGRATION REWARD
+d_xhk_worldark_flusion_plating = {
+	is_for_colonizable = yes
+	icon = d_station_reactor
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
+	planet_modifier = {
+		ship_damage_reduction_mult = 0.05
+		ship_damage_reduction_add = 3
+	}
+}

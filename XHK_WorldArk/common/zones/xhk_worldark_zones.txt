@@ -1,82 +1,66 @@
 ## URBAN
 ###########################################################
 zone_xhk_worldark_urban = {
-	icon = GFX_district_specialization_urban
-	base_buildtime = @zone_buildtime
 	potential = { # planet scope
 		hidden_trigger = {
 			exists = owner
 			owner = {
 				is_wilderness_empire = no
 			}
+			# flusion integration swaps this to the advanced version
+			NOT = { has_carrier_flag = xhk_worldark_flusion_advanced_expansion }
 		}
 	}
-
-	unlock = { # planet scope
-		hidden_trigger = {
-			exists = owner
-			owner = {
-				is_wilderness_empire = no
-			}
-		}
-	}
-
-	resources = {
-		category = planet_zones
-		inline_script = {
-			script = buildings/nomadic_cost_switcher
-			REGULAR_RESOURCE = minerals
-			NOMADIC_RESOURCE = alloys
-			COST = @zone_cost
-			NOMADIC_COST_MULT = 0.5
-		}
+	convert_to = {
+		zone_xhk_worldark_urban_flusion
 	}
 
 	triggered_district_planet_modifier = {
 		planet_housing_add = 250
 	}
 
-	max_buildings = 3
-
-	zone_sets = {
-		xhk_worldark_urban0
-		xhk_worldark_urban1
-	}
-
-	include = {
-		all
-	}
-
-	excluded_building_sets = {
-		generator
-		mining
-		farming
-		knights
-		betharian
-		generator_automation
-		mining_automation
-		farming_automation
-		urban_automation_arcology
-		urban_automation
-		xhk_worldark_physma
-		xhk_worldark_ktisma
-		xhk_worldark_orykta
-	}
-
-	planet_modifier = {
-		zone_building_slots_add = 3
-	}
-
-	triggered_desc = {
-		trigger = {
-			always = yes
+	inline_script = xhk_worldark/zones/urban_zone_shared
+}
+# flusion version
+zone_xhk_worldark_urban_flusion = {
+	potential = { # planet scope
+		hidden_trigger = {
+			exists = owner
+			owner = {
+				is_wilderness_empire = no
+			}
+			has_carrier_flag = xhk_worldark_flusion_advanced_expansion
 		}
-		text = zone_urban_triggered_desc
+	}
+	convert_to = {
+		zone_xhk_worldark_urban
 	}
 
+	triggered_district_planet_modifier = {
+		planet_housing_add = 500
+	}
 
-	ai_priority = 2
-	ai_weight_coefficient = 0.15
+	# flusion integration stage 3
+	triggered_planet_modifier = {
+		potential = {
+			has_carrier_flag = xhk_worldark_flusion_expansion_upkeep
+		}
+		modifier = {
+			planet_jobs_upkeep_mult = -0.025
+		}
+	}
+	# flusion integration stage 4
+	triggered_planet_modifier = {
+		potential = {
+			has_carrier_flag = xhk_worldark_flusion_expansion_efficiency
+		}
+		modifier = {
+			planet_max_districts_mult = 0.025
+			bonus_automated_workforce_mult = 0.025
+		}
+	}
+
+	inline_script = xhk_worldark/zones/urban_zone_shared
 }
 
 ## FOUNDRY
