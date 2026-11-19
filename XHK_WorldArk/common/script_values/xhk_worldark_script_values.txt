@@ -151,16 +151,20 @@ xhk_worldark_half_arkship_action_speed_mult = {
 xhk_worldark_forgery_infiltration = {
 	base = 0
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = artisan
+			limit = {
+				has_job_type = artisan
+			}
 		}
 		mode = add
 	}
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = artisan_drone
+			limit = {
+				has_job_type = artisan_drone
+			}
 		}
 		mode = add
 	}
@@ -178,9 +182,11 @@ xhk_worldark_forgery_infiltration_display = {
 xhk_worldark_infiltration = {
 	base = 0
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = patrol_drone
+			limit = {
+				has_job_type = patrol_drone
+			}
 		}
 		mode = add
 	}
@@ -198,9 +204,11 @@ xhk_worldark_infiltration_display = {
 xhk_worldark_museum_specimen_bonus = {
 	base = 0
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = entertainer
+			limit = {
+				has_job_type = entertainer
+			}
 		}
 		mode = add
 	}
@@ -346,16 +354,20 @@ xhk_worldark_storage_minor_artifacts_display = {
 xhk_worldark_survey_bonus = {
 	base = 0
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = ark_harvester
+			limit = {
+				has_job_type = ark_harvester
+			}
 		}
 		mode = add
 	}
 	complex_trigger_modifier = {
-		trigger = num_assigned_jobs
+		trigger = count_owned_workforce
 		parameters = {
-			job = ark_harvester_gestalt
+			limit = {
+				has_job_type = ark_harvester_gestalt
+			}
 		}
 		mode = add
 	}
