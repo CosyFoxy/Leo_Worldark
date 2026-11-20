@@ -147,8 +147,8 @@ xhk_worldark_half_arkship_action_speed_mult = {
 # ZONE TOOLTIPS
 ##################################################################################################################
 
-# infiltration speed from the forgery zone
-xhk_worldark_forgery_infiltration = {
+# infiltration speed from the infiltration zone
+xhk_worldark_infiltration = {
 	base = 0
 	complex_trigger_modifier = {
 		trigger = count_owned_workforce
@@ -169,17 +169,17 @@ xhk_worldark_forgery_infiltration = {
 		mode = add
 	}
 	divide = 100
-	mult = @xhk_worldark_forgery_infiltration_per_100
+	mult = @xhk_worldark_infiltration_per_100
 }
 # percent form for loc
-xhk_worldark_forgery_infiltration_display = {
+xhk_worldark_infiltration_display = {
 	base = 0
-	add = value:xhk_worldark_forgery_infiltration
+	add = value:xhk_worldark_infiltration
 	mult = 100
 }
 
-# gestalt counterpart of the forgery zone, scales with patrol drones instead of artisans
-xhk_worldark_infiltration = {
+# gestalt counterpart of the infiltration zone, scales with patrol drones instead of artisans
+xhk_worldark_infiltration_gestalt = {
 	base = 0
 	complex_trigger_modifier = {
 		trigger = count_owned_workforce
@@ -191,12 +191,12 @@ xhk_worldark_infiltration = {
 		mode = add
 	}
 	divide = 100
-	mult = @xhk_worldark_forgery_infiltration_per_100
+	mult = @xhk_worldark_infiltration_per_100
 }
 # percent form for loc
-xhk_worldark_infiltration_display = {
+xhk_worldark_infiltration_gestalt_display = {
 	base = 0
-	add = value:xhk_worldark_infiltration
+	add = value:xhk_worldark_infiltration_gestalt
 	mult = 100
 }
 

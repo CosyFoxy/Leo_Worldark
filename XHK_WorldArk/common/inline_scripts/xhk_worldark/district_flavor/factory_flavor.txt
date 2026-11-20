@@ -1,8 +1,8 @@
 triggered_name = {
 	trigger = {
-		has_zone = { zone = zone_xhk_worldark_forgery }
+		has_zone = { zone = zone_xhk_worldark_infiltration }
 	}
-	text = zone_xhk_worldark_forgery
+	text = zone_xhk_worldark_infiltration
 }
 
 # Machine: Civilian Industry

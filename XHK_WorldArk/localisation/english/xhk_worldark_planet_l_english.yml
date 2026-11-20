@@ -337,10 +337,10 @@
  zone_xhk_worldark_factory: "$zone_factory$"
  zone_xhk_worldark_factory_desc: "$zone_factory_desc$"
 
- zone_xhk_worldark_forgery: "Obscura Manufactorum"
- zone_xhk_worldark_forgery_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
- zone_xhk_worldark_forgery_tt: "§ISpecial Effect:§!\n- Per §Y100§! [GetArtisanPlural]: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$"
- zone_xhk_worldark_forgery_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetForgeryBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetForgeryBonus]%§!"
+ zone_xhk_worldark_infiltration: "Obscura Manufactorum"
+ zone_xhk_worldark_infiltration_desc: "Workshops that turn out forged papers, bugged goods, and software with backdoors alongside their usual wares."
+ zone_xhk_worldark_infiltration_tt: "§ISpecial Effect:§!\n- Per §Y100§! [GetArtisanPlural]: §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$"
+ zone_xhk_worldark_infiltration_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationBonus]%§!"
 
  zone_xhk_worldark_trade: "$zone_trade$"
  zone_xhk_worldark_trade_desc: "$zone_trade_desc$"
@@ -417,10 +417,10 @@
  zone_xhk_worldark_enforcer: "Enforcement Centers"
  zone_xhk_worldark_enforcer_desc: "Extra enforcement stations scattered around the $xhk_pc_worldark$ to enforce discipline."
 
- zone_xhk_worldark_infiltration: "Espionage Nodes"
- zone_xhk_worldark_infiltration_desc: "Dedicated nodes created to study deviancy reduction protocols, and offensive espionage techniques."
- zone_xhk_worldark_infiltration_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_forgery_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_energy_upkeep$§! £energy£"
- zone_xhk_worldark_infiltration_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationBonus]%§!"
+ zone_xhk_worldark_infiltration_gestalt: "Espionage Nodes"
+ zone_xhk_worldark_infiltration_gestalt_desc: "Dedicated nodes created to study deviancy reduction protocols, and offensive espionage techniques."
+ zone_xhk_worldark_infiltration_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_gestalt_energy_upkeep$§! £energy£"
+ zone_xhk_worldark_infiltration_gestalt_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationGestaltBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationGestaltBonus]%§!"
 
  zone_xhk_worldark_refinery: "Resource Crucible"
  zone_xhk_worldark_refinery_desc: "Advanced additions to the refinery allow us to produce more with less."

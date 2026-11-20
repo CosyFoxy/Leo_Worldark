@@ -101,10 +101,10 @@
  xhk_worldark_docs_districts_zone_voidforge: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_voidforge$§!: Provides §Y$xhk_pc_worldark$ Armor§! bonuses."
 
  # FACTORY
- xhk_worldark_docs_districts_desc_factory: "$xhk_worldark_docs_districts_district_factory$$xhk_worldark_docs_districts_zone_factory$$xhk_worldark_docs_districts_zone_forgery$"
+ xhk_worldark_docs_districts_desc_factory: "$xhk_worldark_docs_districts_district_factory$$xhk_worldark_docs_districts_zone_factory$$xhk_worldark_docs_districts_zone_infiltration$"
  xhk_worldark_docs_districts_district_factory: "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides §I[GetArtisan]§! jobs."
  xhk_worldark_docs_districts_zone_factory: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds §I[GetArtisan]§! jobs."
- xhk_worldark_docs_districts_zone_forgery: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_forgery$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per [GetArtisan]."
+ xhk_worldark_docs_districts_zone_infiltration: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per [GetArtisan]."
 
  # TRADE
  xhk_worldark_docs_districts_desc_trade: "$xhk_worldark_docs_districts_district_trade$$xhk_worldark_docs_districts_zone_trade$$xhk_worldark_docs_districts_zone_waylogi$"
@@ -177,10 +177,10 @@
  xhk_worldark_docs_districts_zone_museum_dystopian: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_museum_dystopian$§!:  Adds §I$job_politician$§! jobs and §I$mod_specimens_produces_mult$§! per district."
 
  # SECURITY
- xhk_worldark_docs_districts_desc_enforcer: "$xhk_worldark_docs_districts_district_enforcer$$xhk_worldark_docs_districts_zone_enforcer$[owner.xhk_worldark_getDistrictDoc_Infiltration]"
+ xhk_worldark_docs_districts_desc_enforcer: "$xhk_worldark_docs_districts_district_enforcer$$xhk_worldark_docs_districts_zone_enforcer$[owner.xhk_worldark_getDistrictDoc_InfiltrationGestalt]"
  xhk_worldark_docs_districts_district_enforcer: "\n£job_enforcer£§G$district_xhk_worldark_enforcer$§!:  Provides §I[GetSecurityJob]§! jobs."
  xhk_worldark_docs_districts_zone_enforcer: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds §I[GetSecurityJob]§! jobs."
- xhk_worldark_docs_districts_zone_infiltration: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per §I$job_patrol_drone$§!."
+ xhk_worldark_docs_districts_zone_infiltration_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_gestalt$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per §I$job_patrol_drone$§!."
 
  ##########
  # WARFARE

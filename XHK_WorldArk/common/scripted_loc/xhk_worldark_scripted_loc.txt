@@ -89,16 +89,16 @@ defined_text = {
 	default = district_xhk_worldark_deep_sleep_effect_scaling
 }
 
-# forgery tooltip
-defined_text = {
-	name = xhk_worldark_GetForgeryBonus
-	value = value:xhk_worldark_forgery_infiltration_display
-}
-
 # infiltration tooltip
 defined_text = {
 	name = xhk_worldark_GetInfiltrationBonus
 	value = value:xhk_worldark_infiltration_display
+}
+
+# gestalt infiltration tooltip
+defined_text = {
+	name = xhk_worldark_GetInfiltrationGestaltBonus
+	value = value:xhk_worldark_infiltration_gestalt_display
 }
 
 # museum tooltips

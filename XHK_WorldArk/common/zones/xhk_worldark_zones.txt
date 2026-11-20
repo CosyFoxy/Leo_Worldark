@@ -180,7 +180,7 @@ zone_xhk_worldark_factory = {
     ai_priority = 10
 }
 # infiltration
-zone_xhk_worldark_forgery = {
+zone_xhk_worldark_infiltration = {
     icon = GFX_district_specialization_payback_enlightenment
     inline_script = {
         script = xhk_worldark/zones/zone_common
@@ -212,7 +212,7 @@ zone_xhk_worldark_forgery = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-        mult = value:xhk_worldark_forgery_infiltration
+        mult = value:xhk_worldark_infiltration
     }
 
 	# Non-catalytic empires pay the extra factory upkeep in minerals
@@ -236,7 +236,7 @@ zone_xhk_worldark_forgery = {
 
 	triggered_desc = {
 		trigger = { always = yes }
-		text = zone_xhk_worldark_forgery_tt
+		text = zone_xhk_worldark_infiltration_tt
 	}
 
     zone_sets = {
@@ -1221,8 +1221,8 @@ zone_xhk_worldark_enforcer = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
-# infiltration: gestalt counterpart of zone_xhk_worldark_forgery
-zone_xhk_worldark_infiltration = {
+# gestalt counterpart
+zone_xhk_worldark_infiltration_gestalt = {
     icon = GFX_district_specialization_payback_enlightenment
     inline_script = {
         script = xhk_worldark/zones/zone_common
@@ -1299,12 +1299,12 @@ zone_xhk_worldark_infiltration = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-        mult = value:xhk_worldark_infiltration
+        mult = value:xhk_worldark_infiltration_gestalt
     }
 
 	triggered_desc = {
 		trigger = { always = yes }
-		text = zone_xhk_worldark_infiltration_tt
+		text = zone_xhk_worldark_infiltration_gestalt_tt
 	}
 
     zone_sets = {

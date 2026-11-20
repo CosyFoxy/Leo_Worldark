@@ -341,8 +341,8 @@ district_xhk_worldark_factory = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_forgery } }
-		text = zone_xhk_worldark_forgery_dtt
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
+		text = zone_xhk_worldark_infiltration_dtt
 	}
 
     inline_script = {
@@ -1005,8 +1005,8 @@ district_xhk_worldark_enforcer = {
         }
         # infiltration sweeps
         upkeep = {
-            trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
-            energy = @xhk_worldark_infiltration_energy_upkeep
+            trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_gestalt } }
+            energy = @xhk_worldark_infiltration_gestalt_energy_upkeep
         }
     }
 
@@ -1025,8 +1025,8 @@ district_xhk_worldark_enforcer = {
     }
 
 	triggered_desc = {
-		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration } }
-		text = zone_xhk_worldark_infiltration_dtt
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_gestalt } }
+		text = zone_xhk_worldark_infiltration_gestalt_dtt
 	}
 
     inline_script = {
