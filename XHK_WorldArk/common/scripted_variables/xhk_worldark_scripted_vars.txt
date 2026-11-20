@@ -152,8 +152,8 @@
 ########################################################################################################
 # infiltration speed per 100 artisans
 @xhk_worldark_infiltration_per_100 = 0.01
-# infiltration sweeps
-@xhk_worldark_infiltration_gestalt_energy_upkeep = 1.5
+# extra energy upkeep per patrol drone job from the gestalt infiltration/propaganda zones
+@xhk_worldark_patrol_drone_energy_upkeep = 0.5
 # ideological reach per 100 artisans / patrol drones
 @xhk_worldark_ideological_reach_per_100 = 0.01
 # anomaly research and survey speed per 100 harvesters

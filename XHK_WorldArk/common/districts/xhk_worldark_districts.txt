@@ -1007,16 +1007,6 @@ district_xhk_worldark_enforcer = {
         upkeep = {
             energy = 1
         }
-        # infiltration sweeps
-        upkeep = {
-            trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_gestalt } }
-            energy = @xhk_worldark_infiltration_gestalt_energy_upkeep
-        }
-        # gestalt propaganda
-        upkeep = {
-            trigger = { has_zone = { zone = zone_xhk_worldark_propaganda_gestalt } }
-            energy = @xhk_worldark_infiltration_gestalt_energy_upkeep
-        }
     }
 
     inline_script = {

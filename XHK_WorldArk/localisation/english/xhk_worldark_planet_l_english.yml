@@ -424,12 +424,12 @@
 
  zone_xhk_worldark_infiltration_gestalt: "Espionage Nodes"
  zone_xhk_worldark_infiltration_gestalt_desc: "Dedicated nodes created to study deviancy reduction protocols, and offensive espionage techniques."
- zone_xhk_worldark_infiltration_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_gestalt_energy_upkeep$§! £energy£"
+ zone_xhk_worldark_infiltration_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_SPY_NETWORK_DAILY_VALUE_ADD$ and §G+$@xhk_worldark_infiltration_per_100|%1$§! $MOD_ESPIONAGE_OPERATION_SPEED_MULT$"
  zone_xhk_worldark_infiltration_gestalt_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_SPY_NETWORK_DAILY_VALUE_ADD$: §G+[xhk_worldark_GetInfiltrationGestaltBonus]%§!$TABBED_NEW_LINE$ - $MOD_ESPIONAGE_OPERATION_SPEED_MULT$: §G+[xhk_worldark_GetInfiltrationGestaltBonus]%§!"
 
  zone_xhk_worldark_propaganda_gestalt: "Indoctrination Relays"
  zone_xhk_worldark_propaganda_gestalt_desc: "Relay stations that project our Will far beyond our hull."
- zone_xhk_worldark_propaganda_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_ideological_reach_per_100|%1$§! $IDEOLOGICAL_REACH$\n- $district_xhk_worldark_enforcer$ Upkeep: §R+$@xhk_worldark_infiltration_gestalt_energy_upkeep$§! £energy£"
+ zone_xhk_worldark_propaganda_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! $job_patrol_drone_plural$: §G+$@xhk_worldark_ideological_reach_per_100|%1$§! $IDEOLOGICAL_REACH$"
  zone_xhk_worldark_propaganda_gestalt_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $IDEOLOGICAL_REACH$: §G+[xhk_worldark_GetPropagandaGestaltBonus]%§!"
 
  zone_xhk_worldark_refinery: "Resource Crucible"
