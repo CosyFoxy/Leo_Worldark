@@ -154,6 +154,8 @@
 @xhk_worldark_infiltration_per_100 = 0.01
 # infiltration sweeps
 @xhk_worldark_infiltration_gestalt_energy_upkeep = 1.5
+# ideological reach per 100 artisans / patrol drones
+@xhk_worldark_ideological_reach_per_100 = 0.01
 # anomaly research and survey speed per 100 harvesters
 @xhk_worldark_survey_bonus_per_100 = 0.02
 # storage zone

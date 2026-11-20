@@ -4,6 +4,12 @@ triggered_name = {
 	}
 	text = zone_xhk_worldark_infiltration
 }
+triggered_name = {
+	trigger = {
+		has_zone = { zone = zone_xhk_worldark_propaganda }
+	}
+	text = zone_xhk_worldark_propaganda
+}
 
 # Machine: Civilian Industry
 triggered_name = {
