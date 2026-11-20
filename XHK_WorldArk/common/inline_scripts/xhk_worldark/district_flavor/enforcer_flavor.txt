@@ -26,6 +26,20 @@ triggered_flavor_desc = {
     text = zone_xhk_worldark_propaganda_gestalt_desc
 }
 
+# infiltration + propaganda combo
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+    }
+    text = zone_xhk_worldark_infiltration_propaganda_gestalt
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+    }
+    text = zone_xhk_worldark_infiltration_propaganda_gestalt_desc
+}
+
 # Center of Guidance
 triggered_name = {
     trigger = {

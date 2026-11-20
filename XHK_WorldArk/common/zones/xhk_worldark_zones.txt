@@ -248,7 +248,7 @@ zone_xhk_worldark_infiltration = {
 }
 # ideological reach
 zone_xhk_worldark_propaganda = {
-    icon = GFX_district_specialization_priest
+    icon = GFX_district_specialization_ark_pilgrimage
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -303,6 +303,73 @@ zone_xhk_worldark_propaganda = {
 	triggered_desc = {
 		trigger = { always = yes }
 		text = zone_xhk_worldark_propaganda_tt
+	}
+
+    zone_sets = {
+        xhk_worldark_factory
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+# combo
+zone_xhk_worldark_infiltration_propaganda = {
+    icon = GFX_zone_xhk_worldark_infiltration_propaganda
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = {
+				has_technology = tech_decryption_2
+				has_technology = tech_galactic_halls
+			}
+		"
+    }
+
+    included_building_sets = {
+        factory
+        urban_automation
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 1
+        espionage_operation_speed_mult = 1
+        mult = value:xhk_worldark_infiltration
+    }
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        ideological_reach_mult = 1
+        mult = value:xhk_worldark_propaganda_reach
+    }
+
+	# both zones' artisan upkeep stacked
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = no
+		}
+		modifier = {
+			planet_artisans_minerals_upkeep_add = 1
+		}
+	}
+	# Catalytic Processing empires pay it in food instead
+	triggered_planet_modifier = {
+		potential = {
+			industrial_jobs_are_catalytic_trigger = yes
+		}
+		modifier = {
+			planet_artisans_food_upkeep_add = 1.5
+		}
+	}
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = zone_xhk_worldark_infiltration_propaganda_tt
 	}
 
     zone_sets = {
@@ -1390,7 +1457,7 @@ zone_xhk_worldark_infiltration_gestalt = {
 }
 # gestalt counterpart of zone_xhk_worldark_propaganda
 zone_xhk_worldark_propaganda_gestalt = {
-    icon = GFX_district_specialization_priest
+    icon = GFX_district_specialization_ark_pilgrimage
     inline_script = {
         script = xhk_worldark/zones/zone_common
         NUM_BUILDINGS = 3
@@ -1479,6 +1546,102 @@ zone_xhk_worldark_propaganda_gestalt = {
 	triggered_desc = {
 		trigger = { always = yes }
 		text = zone_xhk_worldark_propaganda_gestalt_tt
+	}
+
+    zone_sets = {
+        xhk_worldark_enforcer
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 10
+}
+# gestalt combo
+zone_xhk_worldark_infiltration_propaganda_gestalt = {
+    icon = GFX_zone_xhk_worldark_infiltration_propaganda
+    inline_script = {
+        script = xhk_worldark/zones/zone_common
+        NUM_BUILDINGS = 3
+        UNLOCK = ""
+        POTENTIAL = "
+			owner? = {
+				has_technology = tech_decryption_2
+				has_technology = tech_galactic_halls
+				xhk_worldark_can_have_factory_district = no
+			}
+		"
+    }
+
+    included_building_sets = {
+        government
+    }
+    included_buildings = {
+        building_fe_security_1
+        building_fe_security_2
+    }
+
+    exclude = {
+        building_colony_shelter
+        building_capital
+        building_major_capital
+        building_system_capital
+
+        building_deployment_post
+        building_machine_capital
+        building_machine_major_capital
+        building_machine_system_capital
+
+        building_hive_capital
+        building_hive_major_capital
+
+        building_hab_capital
+        building_hab_major_capital
+        building_hab_system_capital
+
+        building_resort_capital
+        building_resort_major_capital
+        building_slave_capital
+        building_slave_major_capital
+
+        building_imperial_capital
+        building_imperial_machine_capital
+        building_imperial_hive_capital
+        building_imperial_capital_wilderness
+
+        building_colony_shelter_wilderness
+        building_capital_wilderness
+        building_major_capital_wilderness
+        building_system_capital_wilderness
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        spy_network_daily_value_mult = 1
+        espionage_operation_speed_mult = 1
+        mult = value:xhk_worldark_infiltration_gestalt
+    }
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        ideological_reach_mult = 1
+        mult = value:xhk_worldark_propaganda_gestalt_reach
+    }
+
+	# both zones' patrol drone upkeep stacked
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		modifier = {
+			planet_jobs_patrol_drone_energy_upkeep_add = @[ xhk_worldark_patrol_drone_energy_upkeep * 2 ]
+		}
+	}
+
+	triggered_desc = {
+		trigger = { always = yes }
+		text = zone_xhk_worldark_infiltration_propaganda_gestalt_tt
 	}
 
     zone_sets = {

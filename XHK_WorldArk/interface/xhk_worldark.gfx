@@ -54,6 +54,10 @@ spriteTypes = {
 
 	##### ZONE SPRITES
 	spriteType = {
+		name = "GFX_zone_xhk_worldark_infiltration_propaganda"
+		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_infiltration_propaganda.dds"
+	}
+	spriteType = {
 		name = "GFX_zone_xhk_worldark_orykta"
 		texturefile = "gfx/interface/icons/districts/district_specialization_icons/zone_xhk_worldark_orykta.dds"
 	}

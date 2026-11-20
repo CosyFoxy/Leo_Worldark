@@ -348,6 +348,10 @@ district_xhk_worldark_factory = {
 		trigger = { has_zone = { zone = zone_xhk_worldark_propaganda } }
 		text = zone_xhk_worldark_propaganda_dtt
 	}
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_propaganda } }
+		text = zone_xhk_worldark_infiltration_propaganda_dtt
+	}
 
     inline_script = {
         script = xhk_worldark/district_flavor/factory_flavor
@@ -1030,6 +1034,10 @@ district_xhk_worldark_enforcer = {
 	triggered_desc = {
 		trigger = { has_zone = { zone = zone_xhk_worldark_propaganda_gestalt } }
 		text = zone_xhk_worldark_propaganda_gestalt_dtt
+	}
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt } }
+		text = zone_xhk_worldark_infiltration_propaganda_gestalt_dtt
 	}
 
     inline_script = {
