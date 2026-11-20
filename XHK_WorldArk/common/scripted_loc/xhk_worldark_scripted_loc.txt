@@ -101,18 +101,6 @@ defined_text = {
 	value = value:xhk_worldark_infiltration_gestalt_display
 }
 
-# propaganda tooltip
-defined_text = {
-	name = xhk_worldark_GetPropagandaBonus
-	value = value:xhk_worldark_propaganda_reach_display
-}
-
-# gestalt propaganda tooltip
-defined_text = {
-	name = xhk_worldark_GetPropagandaGestaltBonus
-	value = value:xhk_worldark_propaganda_gestalt_reach_display
-}
-
 # museum tooltips
 defined_text = {
 	name = xhk_worldark_GetMuseumSpecimenBonus

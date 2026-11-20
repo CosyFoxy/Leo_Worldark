@@ -278,7 +278,7 @@ zone_xhk_worldark_propaganda = {
             always = yes
         }
         ideological_reach_mult = 1
-        mult = value:xhk_worldark_propaganda_reach
+        mult = value:xhk_worldark_infiltration
     }
 
 	# Non-catalytic empires pay the extra factory upkeep in minerals
@@ -345,7 +345,7 @@ zone_xhk_worldark_infiltration_propaganda = {
             always = yes
         }
         ideological_reach_mult = 1
-        mult = value:xhk_worldark_propaganda_reach
+        mult = value:xhk_worldark_infiltration
     }
 
 	# both zones' artisan upkeep stacked
@@ -1532,7 +1532,7 @@ zone_xhk_worldark_propaganda_gestalt = {
             always = yes
         }
         ideological_reach_mult = 1
-        mult = value:xhk_worldark_propaganda_gestalt_reach
+        mult = value:xhk_worldark_infiltration_gestalt
     }
 	triggered_planet_modifier = {
 		potential = {
@@ -1626,7 +1626,7 @@ zone_xhk_worldark_infiltration_propaganda_gestalt = {
             always = yes
         }
         ideological_reach_mult = 1
-        mult = value:xhk_worldark_propaganda_gestalt_reach
+        mult = value:xhk_worldark_infiltration_gestalt
     }
 
 	# both zones' patrol drone upkeep stacked
