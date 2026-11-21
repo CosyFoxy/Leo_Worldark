@@ -3,6 +3,13 @@ can_nomad_settle = {
         root = { is_nomadic = yes }
     }
     custom_tooltip = {
+        fail_text = "SETTLE_BLOCKED_BY_CONSECRATION"
+        NOT = {
+            has_modifier = consecrated_world
+        }
+    }
+
+    custom_tooltip = {
         fail_text = "SETTLE_BLOCKED_BY_ORIGIN"
         root = {
             NOR = {
@@ -19,6 +26,23 @@ can_nomad_settle = {
         }
     }
 
+    if = {
+        limit = {
+            root = {
+                has_origin = origin_toxic_knights
+            }
+        }
+        custom_tooltip = {
+            fail_text = "SETTLE_BLOCKED_BY_KNIGHTS_QUEST"
+            root = {
+                OR = {
+                    has_country_flag = visited_toxic_god_system
+                    has_country_flag = toxic_knights_destroyed_keep
+                }
+            }
+        }
+    }
+
     custom_tooltip = {
         fail_text = "SETTLE_MISSING_TRADITION"
         if = {
@@ -28,6 +52,10 @@ can_nomad_settle = {
                         has_origin = origin_forever_cruise
                         has_origin = origin_sacred_path
                         has_origin = origin_heirs_of_the_khan
+                        AND = {
+                            has_origin = origin_toxic_knights
+                            has_country_flag = visited_toxic_god_system
+                        }
                     }
                 }
             }
