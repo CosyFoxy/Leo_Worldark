@@ -69,20 +69,20 @@ d_xhk_worldark_base = {
 		planet_artificial_max_districts_add = 2
 	}
 
+}
+
+## SPECIALIZED ARKSHIP BUFFS
+d_xhk_worldark_specialization = {
+	is_for_colonizable = yes
+	icon = d_frameworld_core
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
 	########################################################################################################
 	# ADDING ARKSHIP TYPE BUFFS
 	########################################################################################################
-	# logistic
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				xhk_has_worldark_origin = yes
-			}
-		}
-		ship_starbase_stockpile_collection_rate_add = 200
-		multiplier = xhk_worldark_logistics_expansions
-	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -500,6 +500,7 @@ d_xhk_worldark_logistic_ship_bay = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
 		planet_artificial_max_districts_add = @xhk_worldark_logisticbay_size
+		ship_starbase_stockpile_collection_rate_add = 200
 		multiplier = xhk_worldark_logistics_expansions
 	}
 
@@ -507,6 +508,7 @@ d_xhk_worldark_logistic_ship_bay = {
     potential = { always = no }
 }
 
+########################################################
 ## FLUSION INTEGRATION REWARD
 d_xhk_worldark_flusion_plating = {
 	is_for_colonizable = yes

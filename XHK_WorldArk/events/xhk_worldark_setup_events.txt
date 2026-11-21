@@ -333,6 +333,9 @@ country_event = {
             # control deposit
             add_deposit = d_xhk_worldark_base
 
+            # specialized arkship buffs
+            add_deposit = d_xhk_worldark_specialization
+
             # pop deposit
             if = {
                 limit = {

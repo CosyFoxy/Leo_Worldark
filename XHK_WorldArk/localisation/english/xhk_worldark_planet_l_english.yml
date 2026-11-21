@@ -494,6 +494,8 @@
 
  d_xhk_worldark_base: "$xhk_pc_worldark$ Control Center"
  d_xhk_worldark_base_desc: "Where the great $xhk_pc_worldark$ is helmed."
+ d_xhk_worldark_specialization: "$xhk_pc_worldark$ Specialization"
+ d_xhk_worldark_specialization_desc: "The dedicated systems that define the specialized Arkship bonuses."
 
  d_xhk_worldark_harvest_size: "Planetary Harvest Expansion"
  d_xhk_worldark_harvest_size_desc: "The $xhk_pc_worldark$ has expanded by consuming those boring celestial bodies which boorishly move around their parent for eons."
