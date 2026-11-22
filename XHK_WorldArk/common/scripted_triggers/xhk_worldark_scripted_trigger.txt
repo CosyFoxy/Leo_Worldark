@@ -126,6 +126,7 @@ xhk_worldark_has_zombie_assembly_facilities = {
 
 ####
 # anything in here can will be ignored
+# colony scope
 xhk_worldark_not_consumed_by_wark = {
 	OR = {
 		# exclude the wark just to be sure
@@ -134,6 +135,8 @@ xhk_worldark_not_consumed_by_wark = {
 		is_planet_class = pc_cosmogenesis_world
 		# for ancient empires i guess
 		ag_is_ancient_ringworld = yes
+		# for anyone who wants it
+		has_carrier_flag = xhk_worldark_excluded_resettlement
 	}
 }
 
