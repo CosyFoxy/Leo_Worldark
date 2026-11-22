@@ -6,6 +6,6 @@ tags={
 	"Buildings"
 }
 thumbnail="thumbnail.png"
-name="[4.5] XHK World Ark"
+name="[4.6] XHK World Ark"
 supported_version="v4.6.*"
 remote_file_id="3758686268"
