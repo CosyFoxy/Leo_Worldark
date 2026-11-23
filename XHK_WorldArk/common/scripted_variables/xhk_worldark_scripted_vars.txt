@@ -166,8 +166,8 @@
 @xhk_worldark_deep_sleep_jobs_per_level = 250
 # vivarium zone
 @xhk_worldark_vivarium_capacity = 30
-@xhk_worldark_vivarium_energy_upkeep = 2
-@xhk_worldark_vivarium_food_upkeep = 2
+# extra energy upkeep per 100 farmers
+@xhk_worldark_vivarium_farmer_energy_upkeep = 0.25
 # museum zones
 # normal: specimen output per 100 entertainers
 @xhk_worldark_museum_specimen_per_100 = 0.01

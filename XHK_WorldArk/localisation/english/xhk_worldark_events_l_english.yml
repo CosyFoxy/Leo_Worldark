@@ -136,7 +136,7 @@
  xhk_worldark_docs_districts_desc_farm: "$xhk_worldark_docs_districts_district_farm$$xhk_worldark_docs_districts_zone_farming$$xhk_worldark_docs_districts_zone_vivarium$"
  xhk_worldark_docs_districts_district_farm: "\n£food£§G$district_xhk_worldark_farming$§!:  Provides §I[GetFarmer]§! jobs."
  xhk_worldark_docs_districts_zone_farming: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_farming$§!: Adds §I[GetFarmer]§! jobs."
- xhk_worldark_docs_districts_zone_vivarium: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_vivarium$§!: Adds §I[GetFarmer]§! jobs and §I$MOD_COUNTRY_VIVARIUM_MAX_CAPACITY_ADD$§!, but increases upkeep per district."
+ xhk_worldark_docs_districts_zone_vivarium: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_vivarium$§!: Adds §I[GetFarmer]§! jobs and §I$MOD_COUNTRY_VIVARIUM_MAX_CAPACITY_ADD$§!"
 
  ##########
  # INTELLECTUAL

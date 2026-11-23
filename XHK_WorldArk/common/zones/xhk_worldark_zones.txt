@@ -844,10 +844,14 @@ zone_xhk_worldark_vivarium = {
         country_vivarium_max_capacity_add = @xhk_worldark_vivarium_capacity
     }
 
-    triggered_desc = {
-        trigger = { always = yes }
-        text = zone_xhk_worldark_vivarium_tt
-    }
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		modifier = {
+			planet_farmers_energy_upkeep_add = @xhk_worldark_vivarium_farmer_energy_upkeep
+		}
+	}
 
     zone_sets = {
         xhk_worldark_farming

@@ -219,16 +219,6 @@ xhk_worldark_vivarium_capacity_display = {
 	add = value:xhk_worldark_vivarium_districts
 	mult = @xhk_worldark_vivarium_capacity
 }
-xhk_worldark_vivarium_energy_upkeep_display = {
-	base = 0
-	add = value:xhk_worldark_vivarium_districts
-	mult = @xhk_worldark_vivarium_energy_upkeep
-}
-xhk_worldark_vivarium_food_upkeep_display = {
-	base = 0
-	add = value:xhk_worldark_vivarium_districts
-	mult = @xhk_worldark_vivarium_food_upkeep
-}
 
 ##### DEEP SLEEP
 # loc only

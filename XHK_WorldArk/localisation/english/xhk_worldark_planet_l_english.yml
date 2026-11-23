@@ -385,8 +385,7 @@
  zone_xhk_worldark_farming_desc: "$zone_ark_food_desc$"
 
  zone_xhk_worldark_vivarium: "Biosphere Holds"
- zone_xhk_worldark_vivarium_desc: "Climate-sealed habitat decks raise crops alongside captive space fauna, fed by large amounts of food and energy."
- zone_xhk_worldark_vivarium_tt: "§ISpecial Effect:§!\n- $district_xhk_worldark_farming$ Upkeep: §R+$@xhk_worldark_vivarium_energy_upkeep$§! £energy£ and §R+$@xhk_worldark_vivarium_food_upkeep$§! £food£"
+ zone_xhk_worldark_vivarium_desc: "Climate-sealed habitat decks raise crops alongside captive space fauna, kept alive by large amounts of tender care."
  zone_xhk_worldark_vivarium_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $MOD_COUNTRY_VIVARIUM_MAX_CAPACITY_ADD$: §G+[xhk_worldark_GetVivariumCapacity]§!"
 
  zone_xhk_worldark_unity: "$zone_unity$"
