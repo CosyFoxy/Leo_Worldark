@@ -338,13 +338,7 @@ zone_xhk_worldark_infiltration_propaganda = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-        mult = value:xhk_worldark_infiltration
-    }
-    triggered_country_modifier = {
-        potential = {
-            always = yes
-        }
-        ideological_reach_mult = 1
+		ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration
     }
 
@@ -1128,7 +1122,6 @@ zone_xhk_worldark_amenities = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
-# dystopian
 zone_xhk_worldark_amenities_dystopian = {
     icon = GFX_district_specialization_entertainer
     inline_script = {
@@ -1212,7 +1205,6 @@ zone_xhk_worldark_museum = {
     ai_weight_coefficient = 0.5
     ai_priority = 5
 }
-# museum (dystopian)
 zone_xhk_worldark_museum_dystopian = {
     icon = GFX_district_specialization_culture_worker
     inline_script = {
@@ -1354,7 +1346,7 @@ zone_xhk_worldark_enforcer = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
-# gestalt counterpart
+# gestalt counterparts
 zone_xhk_worldark_infiltration_gestalt = {
     icon = GFX_district_specialization_payback_enlightenment
     inline_script = {
@@ -1455,7 +1447,6 @@ zone_xhk_worldark_infiltration_gestalt = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
-# gestalt counterpart of zone_xhk_worldark_propaganda
 zone_xhk_worldark_propaganda_gestalt = {
     icon = GFX_district_specialization_ark_pilgrimage
     inline_script = {
@@ -1555,7 +1546,6 @@ zone_xhk_worldark_propaganda_gestalt = {
     ai_weight_coefficient = 0.5
     ai_priority = 10
 }
-# gestalt combo
 zone_xhk_worldark_infiltration_propaganda_gestalt = {
     icon = GFX_zone_xhk_worldark_infiltration_propaganda
     inline_script = {
@@ -1619,13 +1609,7 @@ zone_xhk_worldark_infiltration_propaganda_gestalt = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-        mult = value:xhk_worldark_infiltration_gestalt
-    }
-    triggered_country_modifier = {
-        potential = {
-            always = yes
-        }
-        ideological_reach_mult = 1
+		ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration_gestalt
     }
 

@@ -144,85 +144,48 @@ xhk_worldark_half_arkship_action_speed_mult = {
 
 
 ##################################################################################################################
-# ZONE TOOLTIPS
+# ZONE STUFF
 ##################################################################################################################
 
-# infiltration speed from the infiltration zone
+##### INFILTRATION / PROPAGANDA
+# also used for propaganda and the combo zone since its the same jobs
 xhk_worldark_infiltration = {
 	base = 0
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = artisan
-			}
-		}
-		mode = add
-	}
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = artisan_drone
-			}
-		}
-		mode = add
-	}
-	divide = 100
+	add = value:count_owned_job_workforce|JOB|artisan|
+	add = value:count_owned_job_workforce|JOB|artisan_drone|
 	mult = @xhk_worldark_infiltration_per_100
 }
-# percent form for loc
 xhk_worldark_infiltration_display = {
 	base = 0
 	add = value:xhk_worldark_infiltration
 	mult = 100
 }
-
-# gestalt counterpart of the infiltration zone, scales with patrol drones instead of artisans
 xhk_worldark_infiltration_gestalt = {
 	base = 0
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = patrol_drone
-			}
-		}
-		mode = add
-	}
-	divide = 100
+	add = value:count_owned_job_workforce|JOB|patrol_drone|
 	mult = @xhk_worldark_infiltration_per_100
 }
-# percent form for loc
 xhk_worldark_infiltration_gestalt_display = {
 	base = 0
 	add = value:xhk_worldark_infiltration_gestalt
 	mult = 100
 }
 
-# museum zone specimen output, scales with entertainers on the planet
+##### MUSEUM NORMAL
+# museum zone specimen output
 xhk_worldark_museum_specimen_bonus = {
 	base = 0
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = entertainer
-			}
-		}
-		mode = add
-	}
-	divide = 100
+	add = value:count_owned_job_workforce|JOB|entertainer|
 	mult = @xhk_worldark_museum_specimen_per_100
 }
-# percent form for loc
 xhk_worldark_museum_specimen_display = {
 	base = 0
 	add = value:xhk_worldark_museum_specimen_bonus
 	mult = 100
 }
 
-# dystopian museum zone totals, for loc
+##### MUSEUM DYSTOPIAN
+# scales on num districts, not on jobs
 xhk_worldark_museum_dystopian_districts = {
 	base = 0
 	complex_trigger_modifier = {
@@ -267,7 +230,8 @@ xhk_worldark_vivarium_food_upkeep_display = {
 	mult = @xhk_worldark_vivarium_food_upkeep
 }
 
-# cryogenic bay totals, for loc
+##### DEEP SLEEP
+# loc only
 xhk_worldark_deep_sleep_jobs_per_district = {
 	base = @xhk_worldark_deep_sleep_jobs_base
 	modifier = {
@@ -305,7 +269,8 @@ xhk_worldark_deep_sleep_jobs_display = {
 	mult = value:xhk_worldark_deep_sleep_jobs_per_district
 }
 
-# storage zone totals, for loc
+##### STORAGE
+# loc only
 xhk_worldark_storage_levels = {
 	base = 0
 	complex_trigger_modifier = {
@@ -315,7 +280,7 @@ xhk_worldark_storage_levels = {
 		}
 		mode = add
 	}
-	# tooltip only: always show at least one district's worth
+	# always show at least one district's worth
 	min = 1
 }
 xhk_worldark_storage_resource_max_display = {
@@ -334,8 +299,10 @@ xhk_worldark_storage_minor_artifacts_display = {
 	mult = @xhk_worldark_storage_minor_artifacts
 	modifier = {
 		owner = {
-			has_technology = tech_fe_silo_1
-			has_technology = tech_fe_silo_2
+			OR = {
+				has_technology = tech_fe_silo_1
+				has_technology = tech_fe_silo_2
+			}
 		}
 		mult = 2
 	}
@@ -350,31 +317,14 @@ xhk_worldark_storage_minor_artifacts_display = {
 	}
 }
 
-# anomaly and survey speed from the survey zone
+##### SURVEY
+# survey + anomaly stats from harvesters
 xhk_worldark_survey_bonus = {
 	base = 0
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = ark_harvester
-			}
-		}
-		mode = add
-	}
-	complex_trigger_modifier = {
-		trigger = count_owned_workforce
-		parameters = {
-			limit = {
-				has_job_type = ark_harvester_gestalt
-			}
-		}
-		mode = add
-	}
-	divide = 100
+	add = value:count_owned_job_workforce|JOB|ark_harvester|
+	add = value:count_owned_job_workforce|JOB|ark_harvester_gestalt|
 	mult = @xhk_worldark_survey_bonus_per_100
 }
-# percent form for loc
 xhk_worldark_survey_bonus_display = {
 	base = 0
 	add = value:xhk_worldark_survey_bonus
