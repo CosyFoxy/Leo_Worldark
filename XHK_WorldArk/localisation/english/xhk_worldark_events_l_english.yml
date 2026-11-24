@@ -87,7 +87,7 @@
 
  xhk_worldark_docs_districts_desc_city: "$xhk_worldark_docs_districts_district_city$$xhk_worldark_docs_districts_zone_urban$"
  xhk_worldark_docs_districts_district_city: "\n£housing£§G$district_xhk_worldark_city$§!: Provides §IHousing§! and §IBuilding Slots§!."
- xhk_worldark_docs_districts_zone_urban: "$TABBED_NEW_LINE$- 2x §C$zone_urban$§!: Provides more §IHousing§! and §IBuilding Slots§!."
+ xhk_worldark_docs_districts_zone_urban: "$TABBED_NEW_LINE$- 2x §C$zone_xhk_worldark_urban$§!: Provides more §IHousing§! and §IBuilding Slots§!."
 
  ##########
  # MANUFACTURED GOODS
@@ -106,7 +106,7 @@
  xhk_worldark_docs_districts_zone_factory: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds §I[GetArtisan]§! jobs."
  xhk_worldark_docs_districts_zone_infiltration: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per [GetArtisan]."
  xhk_worldark_docs_districts_zone_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda$§!: Adds §I$IDEOLOGICAL_REACH$§! per [GetArtisan]."
- xhk_worldark_docs_districts_zone_infiltration_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§!, §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§!, and §I$IDEOLOGICAL_REACH$§! per [GetArtisan]."
+ xhk_worldark_docs_districts_zone_infiltration_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda$§!: Combines the effects of §C$zone_xhk_worldark_infiltration$§! and §C$zone_xhk_worldark_propaganda$§!."
 
  # TRADE
  xhk_worldark_docs_districts_desc_trade: "$xhk_worldark_docs_districts_district_trade$$xhk_worldark_docs_districts_zone_trade$$xhk_worldark_docs_districts_zone_waylogi$"
@@ -185,7 +185,7 @@
  xhk_worldark_docs_districts_zones_enforcer_gestalt: "$xhk_worldark_docs_districts_zone_infiltration_gestalt$$xhk_worldark_docs_districts_zone_propaganda_gestalt$$xhk_worldark_docs_districts_zone_infiltration_propaganda_gestalt$"
  xhk_worldark_docs_districts_zone_infiltration_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_gestalt$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per §I$job_patrol_drone$§!."
  xhk_worldark_docs_districts_zone_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda_gestalt$§!: Adds §I$IDEOLOGICAL_REACH$§! per §I$job_patrol_drone$§!."
- xhk_worldark_docs_districts_zone_infiltration_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda_gestalt$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§!, §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§!, and §I$IDEOLOGICAL_REACH$§! per §I$job_patrol_drone$§!."
+ xhk_worldark_docs_districts_zone_infiltration_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda_gestalt$§!: Combines the effects of §C$zone_xhk_worldark_infiltration_gestalt$§! and §C$zone_xhk_worldark_propaganda_gestalt$§!."
 
  ##########
  # WARFARE
