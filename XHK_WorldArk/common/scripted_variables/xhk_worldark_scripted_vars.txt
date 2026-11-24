@@ -183,7 +183,7 @@
 @xhk_worldark_vivarium_farmer_energy_upkeep = 0.25
 # museum zones
 # normal: specimen output per 100 entertainers
-@xhk_worldark_museum_specimen_per_100 = 0.01
+@xhk_worldark_museum_specimen_per_100 = 0.015
 # dystopian: specimen output and politicians per amenities district
-@xhk_worldark_museum_dystopian_specimen_per_district = 0.05
+@xhk_worldark_museum_dystopian_specimen_per_district = 0.08
 # LOAD BEARING EOF

@@ -1194,6 +1194,15 @@ zone_xhk_worldark_museum = {
         mult = value:xhk_worldark_museum_specimen_bonus
     }
 
+    triggered_planet_modifier = {
+        potential = {
+            always = yes
+        }
+        modifier = {
+            planet_entertainers_consumer_goods_upkeep_add = 0.25
+        }
+    }
+
     triggered_desc = {
         trigger = { always = yes }
         text = zone_xhk_worldark_museum_tt
