@@ -265,6 +265,7 @@ zone_xhk_worldark_propaganda = {
     included_building_sets = {
         factory
         urban_automation
+        unity
     }
 
     # doubled
@@ -330,6 +331,7 @@ zone_xhk_worldark_infiltration_propaganda = {
     included_building_sets = {
         factory
         urban_automation
+        unity
     }
 
     triggered_country_modifier = {
@@ -1625,6 +1627,7 @@ zone_xhk_worldark_propaganda_gestalt = {
 
     included_building_sets = {
         government
+        unity
     }
     included_buildings = {
         building_fe_security_1
@@ -1719,6 +1722,7 @@ zone_xhk_worldark_infiltration_propaganda_gestalt = {
 
     included_building_sets = {
         government
+        unity
     }
     included_buildings = {
         building_fe_security_1
