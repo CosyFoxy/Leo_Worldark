@@ -118,6 +118,19 @@
 @xhk_worldark_shipstat_districts_t11 = 50
 @xhk_worldark_shipstat_districts_t12 = 60
 
+@xhk_worldark_shipstat_buildqueue_t1 = 0
+@xhk_worldark_shipstat_buildqueue_t2 = 0
+@xhk_worldark_shipstat_buildqueue_t3 = 0
+@xhk_worldark_shipstat_buildqueue_t4 = 1
+@xhk_worldark_shipstat_buildqueue_t5 = 1
+@xhk_worldark_shipstat_buildqueue_t6 = 1
+@xhk_worldark_shipstat_buildqueue_t7 = 1
+@xhk_worldark_shipstat_buildqueue_t8 = 1
+@xhk_worldark_shipstat_buildqueue_t9 = 2
+@xhk_worldark_shipstat_buildqueue_t10 = 2
+@xhk_worldark_shipstat_buildqueue_t11 = 2
+@xhk_worldark_shipstat_buildqueue_t12 = 2
+
 @xhk_worldark_shipstat_reactor_t1 = 1.5
 @xhk_worldark_shipstat_reactor_t2 = 1.75
 @xhk_worldark_shipstat_reactor_t3 = 2

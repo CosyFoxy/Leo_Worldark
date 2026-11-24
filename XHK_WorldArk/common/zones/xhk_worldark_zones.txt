@@ -277,7 +277,7 @@ zone_xhk_worldark_propaganda = {
         potential = {
             always = yes
         }
-        ideological_reach_mult = 1
+        colony_ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration
     }
 
@@ -338,7 +338,7 @@ zone_xhk_worldark_infiltration_propaganda = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-		ideological_reach_mult = 1
+		colony_ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration
     }
 
@@ -1526,7 +1526,7 @@ zone_xhk_worldark_propaganda_gestalt = {
         potential = {
             always = yes
         }
-        ideological_reach_mult = 1
+        colony_ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration_gestalt
     }
 	triggered_planet_modifier = {
@@ -1613,7 +1613,7 @@ zone_xhk_worldark_infiltration_propaganda_gestalt = {
         }
         spy_network_daily_value_mult = 1
         espionage_operation_speed_mult = 1
-		ideological_reach_mult = 1
+		colony_ideological_reach_mult = 1
         mult = value:xhk_worldark_infiltration_gestalt
     }
 

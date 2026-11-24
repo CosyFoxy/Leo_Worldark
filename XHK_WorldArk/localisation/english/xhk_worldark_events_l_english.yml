@@ -105,7 +105,7 @@
  xhk_worldark_docs_districts_district_factory: "\n£consumer_goods£§G$district_xhk_worldark_factory$§!: Provides §I[GetArtisan]§! jobs."
  xhk_worldark_docs_districts_zone_factory: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_factory$§!: Adds §I[GetArtisan]§! jobs."
  xhk_worldark_docs_districts_zone_infiltration: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per [GetArtisan]."
- xhk_worldark_docs_districts_zone_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda$§!: Adds §I$IDEOLOGICAL_REACH$§! per [GetArtisan]."
+ xhk_worldark_docs_districts_zone_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda$§!: Adds §I$mod_colony_ideological_reach_mult$§! per [GetArtisan]."
  xhk_worldark_docs_districts_zone_infiltration_propaganda: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda$§!: Combines the effects of §C$zone_xhk_worldark_infiltration$§! and §C$zone_xhk_worldark_propaganda$§!."
 
  # TRADE
@@ -184,7 +184,7 @@
  xhk_worldark_docs_districts_zone_enforcer: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_enforcer$§!:  Adds §I[GetSecurityJob]§! jobs."
  xhk_worldark_docs_districts_zones_enforcer_gestalt: "$xhk_worldark_docs_districts_zone_infiltration_gestalt$$xhk_worldark_docs_districts_zone_propaganda_gestalt$$xhk_worldark_docs_districts_zone_infiltration_propaganda_gestalt$"
  xhk_worldark_docs_districts_zone_infiltration_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_gestalt$§!: Adds §I$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! and §I$MOD_ESPIONAGE_OPERATION_SPEED_MULT$§! per §I$job_patrol_drone$§!."
- xhk_worldark_docs_districts_zone_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda_gestalt$§!: Adds §I$IDEOLOGICAL_REACH$§! per §I$job_patrol_drone$§!."
+ xhk_worldark_docs_districts_zone_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_propaganda_gestalt$§!: Adds §I$mod_colony_ideological_reach_mult$§! per §I$job_patrol_drone$§!."
  xhk_worldark_docs_districts_zone_infiltration_propaganda_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_infiltration_propaganda_gestalt$§!: Combines the effects of §C$zone_xhk_worldark_infiltration_gestalt$§! and §C$zone_xhk_worldark_propaganda_gestalt$§!."
 
  ##########
@@ -269,14 +269,16 @@
  xhk_worldark_docs_ship_levels_t2: "\n§GLevel 2§!$TABBED_NEW_LINE$- §YStarbase:§! 8 Modules, $@xhk_worldark_shipstat_buildings_t2|0$ Buildings | §YBase Districts:§! 14$TABBED_NEW_LINE$- §YWeapons:§! 4 Hangar, 8 Point Defense, 4 Large"
  xhk_worldark_docs_ship_levels_t3: "\n§GLevel 3§!$TABBED_NEW_LINE$- §YStarbase:§! 12 Modules, $@xhk_worldark_shipstat_buildings_t3|0$ Buildings | §YBase Districts:§! 18$TABBED_NEW_LINE$- §YWeapons:§! 6 Hangar, 16 Point Defense, 8 Large$xhk_worldark_docs_ship_levels_t3_note$"
  xhk_worldark_docs_ship_levels_t3_note: "$TABBED_NEW_LINE$- §BUnlocks:§! §GFirst $district_xhk_worldark_city$§! Specialization"
- xhk_worldark_docs_ship_levels_t4: "\n§GLevel 4§!$TABBED_NEW_LINE$- §YStarbase:§! 16 Modules, $@xhk_worldark_shipstat_buildings_t4|0$ Buildings | §YBase Districts:§! 22$TABBED_NEW_LINE$- §YWeapons:§! 8 Hangar, 20 Point Defense, 12 Large"
+ xhk_worldark_docs_ship_levels_t4: "\n§GLevel 4§!$TABBED_NEW_LINE$- §YStarbase:§! 16 Modules, $@xhk_worldark_shipstat_buildings_t4|0$ Buildings | §YBase Districts:§! 22$TABBED_NEW_LINE$- §YWeapons:§! 8 Hangar, 20 Point Defense, 12 Large$xhk_worldark_docs_ship_levels_t4_note$"
+ xhk_worldark_docs_ship_levels_t4_note: "$TABBED_NEW_LINE$- §BUnlocks:§! §G+1§! $MOD_PLANET_BUILDING_CAPACITY_ADD$"
  xhk_worldark_docs_ship_levels_t5: "\n§GLevel 5§!$TABBED_NEW_LINE$- §YStarbase:§! 16 Modules, $@xhk_worldark_shipstat_buildings_t5|0$ Buildings | §YBase Districts:§! 26$TABBED_NEW_LINE$- §YWeapons:§! 12 Hangar, 24 Point Defense, 16 Large$xhk_worldark_docs_ship_levels_t5_note$"
  xhk_worldark_docs_ship_levels_t5_note: "$TABBED_NEW_LINE$- §BUnlocks:§! §I$xhk_worldark_size_harvest$§! max £districtadd£District gain increases to $xhk_harvest_plus_large$"
  xhk_worldark_docs_ship_levels_t6: "\n§GLevel 6§!$TABBED_NEW_LINE$- §YStarbase:§! 20 Modules, $@xhk_worldark_shipstat_buildings_t6|0$ Buildings | §YBase Districts:§! 30$TABBED_NEW_LINE$- §YWeapons:§! 16 Hangar, 28 Point Defense, 20 Large$xhk_worldark_docs_ship_levels_t6_note$"
  xhk_worldark_docs_ship_levels_t6_note: "$TABBED_NEW_LINE$- §BUnlocks:§! §GSecond $district_xhk_worldark_city$§! Specialization"
  xhk_worldark_docs_ship_levels_t7: "\n§GLevel 7§!$TABBED_NEW_LINE$- §YStarbase:§! 24 Modules, $@xhk_worldark_shipstat_buildings_t7|0$ Buildings | §YBase Districts:§! 34$TABBED_NEW_LINE$- §YWeapons:§! 18 Hangar, 30 Point Defense, 24 Large"
  xhk_worldark_docs_ship_levels_t8: "\n§GLevel 8§!$TABBED_NEW_LINE$- §YStarbase:§! 24 Modules, $@xhk_worldark_shipstat_buildings_t8|0$ Buildings, 2 Spinal Mounts | §YBase Districts:§! 38$TABBED_NEW_LINE$- §YWeapons:§! 20 Hangar, 32 Point Defense, 30 Large"
- xhk_worldark_docs_ship_levels_t9: "\n§GLevel 9§!$TABBED_NEW_LINE$- §YStarbase:§! 24 Modules, $@xhk_worldark_shipstat_buildings_t9|0$ Buildings, 4 Spinal Mounts | §YBase Districts:§! 44$TABBED_NEW_LINE$- §YWeapons:§! 24 Hangar, 36 Point Defense, 36 Large"
+ xhk_worldark_docs_ship_levels_t9: "\n§GLevel 9§!$TABBED_NEW_LINE$- §YStarbase:§! 24 Modules, $@xhk_worldark_shipstat_buildings_t9|0$ Buildings, 4 Spinal Mounts | §YBase Districts:§! 44$TABBED_NEW_LINE$- §YWeapons:§! 24 Hangar, 36 Point Defense, 36 Large$xhk_worldark_docs_ship_levels_t9_note$"
+ xhk_worldark_docs_ship_levels_t9_note: "$TABBED_NEW_LINE$- §BUnlocks:§! §G+1§! $MOD_PLANET_BUILDING_CAPACITY_ADD$"
  xhk_worldark_docs_ship_levels_t10: "\n§GLevel 10§!$TABBED_NEW_LINE$- §YStarbase:§! 24 Modules, $@xhk_worldark_shipstat_buildings_t10|0$ Buildings, 6 Spinal Mounts | §YBase Districts:§! 50$TABBED_NEW_LINE$- §YWeapons:§! 30 Hangar, 40 Point Defense, 40 Large"
 
  xhk_worldark_docs_ship_levels_megaengineering: "\n\n§l------MEGASTRUCTURE-LEVELS------------------------------§!\n§RThe following levels require§! §Y$tech_mega_engineering$§!"
