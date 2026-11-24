@@ -947,3 +947,34 @@ xhk_tech_worldark_corespinal_shipyard = {
 		factor = @best_megastructure_ai_tech_factor
 	}
 }
+
+#######################################
+############ SYSTEMS ###############
+#######################################
+
+xhk_tech_worldark_purge_booster = {
+	icon = tech_slave_colonies
+	area = society
+	cost = @tier3cost1
+	tier = 3
+	category = { biology }
+	prerequisites = { "xhk_tech_worldark_3" }
+	weight = @tier3weight2
+
+	potential = {
+		is_nomadic = yes
+		xhk_has_worldark_origin = yes
+		xhk_worldark_can_purge_or_livestock = yes
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 2
+			is_xenophobe = yes
+		}
+	}
+
+	ai_weight = {
+		factor = @best_megastructure_ai_tech_factor
+	}
+}

@@ -197,6 +197,11 @@
  sm_xhk_worldark_art_installation: "Creativity Installation"
  sm_xhk_worldark_art_installation_desc: "A centralized hub for creative enterprises, with the benefit of allowing us extra introspection.\n"
 
+ sm_xhk_worldark_purge_booster: "Processing Deck"
+ sm_xhk_worldark_purge_booster_desc: "A specialized deck deep in the hull where unwanted and useful species alike are put to their final use.\n"
+ # need a special tooltip because using livestock_jobs_bonus_workforce_mult expands into three
+ xhk_worldark_purge_booster_tt: "$t$$mod_pop_cat_purge_bonus_workforce_mult$: §G+15%§!\n$t$$BONUS_WORKFORCE_FOR$ ['concept_planet_livestock']: §G+15%§!"
+
  sm_xhk_worldark_mutagenic_spa: "Mutagenic Soaking Sector"
  sm_xhk_worldark_mutagenic_spa_desc: "A bathing complex of the $xhk_pc_worldark$ flooded with mutagenic baths, open to any who dare to soak.\n"
 

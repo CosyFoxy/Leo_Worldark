@@ -225,6 +225,16 @@ guiTypes = {
 				quadTextureSprite = "GFX_empire_flag_64"
 				position = { x = 3 y = -10 }
 			}
+			containerWindowType = {
+				name = "arkship_planet_top_bar"
+				position = { x = -14 y = -47 }
+
+				background = {
+					name = "arkship_planet_top_bar"
+					spriteType = "GFX_arkship_banner"
+					alwaystransparent = yes
+				}
+			}
 		}
 		# Header
 		# UIOD_WIP
@@ -1412,6 +1422,27 @@ guiTypes = {
 					}
 				}
 			}
+			containerWindowType = {
+				name = "ideology_window"
+				position = { x = 696 y = 9 }
+				size = { width = 154 height = 50 }
+				clipping = no
+
+				iconType = {
+					name = "ideology_separator"
+					spriteType = "GFX_planet_info_separator"
+					position = { x = -14 y = 9 }
+				}
+
+				OverlappingElementsBoxType = {
+					name = "ideology_flags"
+					position = { x = 0 y = 0 }
+					size = { x = 150 y = 40 }
+					spacing = 2.0
+					format = left
+					first_on_top = yes
+				}
+			}
 		}
 		### Planet Summary Content
 		containerWindowType = {
@@ -2409,7 +2440,7 @@ guiTypes = {
 							name = "assembly_data"
 							size = { width = 96 height = 64 }
 							position = { x = 0 y = 0 }
-							orientation = upper_right
+							orientation = upper_right 
 							origo = upper_right
 							background = {
 								name = "assembly_data"
@@ -4737,26 +4768,6 @@ guiTypes = {
 						font = "font_text_14"
 						text = "5 energy"
 						position = { x = 10 y = 220 }
-						maxWidth = 390
-						maxHeight = 16
-						fixedSize = yes
-						format = left
-					}
-					instantTextBoxType = {
-						name = "overlord_production"
-						font = "font_text_14"
-						text = "12 minerals"
-						position = { x = 10 y = 240 }
-						maxWidth = 390
-						maxHeight = 16
-						fixedSize = yes
-						format = left
-					}
-					instantTextBoxType = {
-						name = "overlord_upkeep"
-						font = "font_text_14"
-						text = "5 energy"
-						position = { x = 10 y = 260 }
 						maxWidth = 390
 						maxHeight = 16
 						fixedSize = yes

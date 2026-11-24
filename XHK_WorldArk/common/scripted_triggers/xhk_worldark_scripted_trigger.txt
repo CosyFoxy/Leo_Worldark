@@ -160,3 +160,11 @@ xhk_worldark_flusion_is_integratable = {
 		}
 	}
 }
+
+# not the cleanest but checking for if livestock seperately is a pain
+xhk_worldark_can_purge_or_livestock = {
+	OR = {
+		allows_purge = yes
+		allows_slavery = yes
+	}
+}
