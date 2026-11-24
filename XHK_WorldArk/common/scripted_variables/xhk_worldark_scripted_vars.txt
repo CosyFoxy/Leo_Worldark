@@ -166,9 +166,7 @@
 # infiltration speed and ideological reach per 100 artisans / patrol drones
 # its shared
 @xhk_worldark_infiltration_per_100 = 0.01
-# extra energy upkeep per patrol drone job from the gestalt infiltration/propaganda zones
-@xhk_worldark_patrol_drone_energy_upkeep = 0.5
-# anomaly research and survey speed per 100 harvesters
+# survey
 @xhk_worldark_survey_bonus_per_100 = 0.02
 # storage zone
 @xhk_worldark_storage_resource_max = 10000
@@ -179,11 +177,8 @@
 @xhk_worldark_deep_sleep_jobs_per_level = 250
 # vivarium zone
 @xhk_worldark_vivarium_capacity = 30
-# extra energy upkeep per 100 farmers
-@xhk_worldark_vivarium_farmer_energy_upkeep = 0.25
 # museum zones
-# normal: specimen output per 100 entertainers
 @xhk_worldark_museum_specimen_per_100 = 0.015
-# dystopian: specimen output and politicians per amenities district
 @xhk_worldark_museum_dystopian_specimen_per_district = 0.08
+@xhk_worldark_museum_gestalt_specimen_per_100 = 0.0033
 # LOAD BEARING EOF

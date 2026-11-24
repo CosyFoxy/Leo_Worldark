@@ -741,10 +741,14 @@ district_xhk_worldark_unity_hive = {
         AMOUNT = 200
     }
 
-	triggered_name = {
-		text = city_synapse_hive_1
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_museum_gestalt } }
+		text = zone_xhk_worldark_museum_gestalt_dtt
 	}
 
+	inline_script = {
+		script = xhk_worldark/district_flavor/unity_hive_flavor
+	}
 }
 district_xhk_worldark_unity_machine = {
     inline_script = {
@@ -763,8 +767,13 @@ district_xhk_worldark_unity_machine = {
         AMOUNT = 200
     }
 
-	triggered_name = {
-		text = city_unity_machine_1
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_museum_gestalt } }
+		text = zone_xhk_worldark_museum_gestalt_dtt
+	}
+
+	inline_script = {
+		script = xhk_worldark/district_flavor/unity_machine_flavor
 	}
 }
 district_xhk_worldark_unity_servitor = {

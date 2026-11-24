@@ -110,6 +110,10 @@ defined_text = {
 	name = xhk_worldark_GetMuseumDystopianSpecimenBonus
 	value = value:xhk_worldark_museum_dystopian_specimen_display
 }
+defined_text = {
+	name = xhk_worldark_GetMuseumGestaltSpecimenBonus
+	value = value:xhk_worldark_museum_gestalt_specimen_display
+}
 
 # vivarium tooltip
 defined_text = {

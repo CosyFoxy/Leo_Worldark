@@ -146,8 +146,8 @@
  # UNITY
  xhk_worldark_docs_districts_desc_admn: "$xhk_worldark_docs_districts_district_admn$$xhk_worldark_docs_districts_zone_unity$"
  xhk_worldark_docs_districts_desc_spir: "$xhk_worldark_docs_districts_district_spir$$xhk_worldark_docs_districts_zone_spiritualist$"
- xhk_worldark_docs_districts_desc_hive: "$xhk_worldark_docs_districts_district_hive$$xhk_worldark_docs_districts_zone_unity$"
- xhk_worldark_docs_districts_desc_mach: "$xhk_worldark_docs_districts_district_mach$$xhk_worldark_docs_districts_zone_unity$"
+ xhk_worldark_docs_districts_desc_hive: "$xhk_worldark_docs_districts_district_hive$$xhk_worldark_docs_districts_zone_unity$$xhk_worldark_docs_districts_zone_museum_gestalt$"
+ xhk_worldark_docs_districts_desc_mach: "$xhk_worldark_docs_districts_district_mach$$xhk_worldark_docs_districts_zone_unity$$xhk_worldark_docs_districts_zone_museum_gestalt$"
  xhk_worldark_docs_districts_desc_serv: "$xhk_worldark_docs_districts_district_serv$$xhk_worldark_docs_districts_zone_servitor$"
  xhk_worldark_docs_districts_district_admn: "\n£unity£§G$district_xhk_worldark_unity$§!:  Provides §I[GetBureaucrat]§! jobs."
  xhk_worldark_docs_districts_district_spir: "\n£unity£§G$district_xhk_worldark_unity_spiritualist$§!:  Provides §I[GetPriest]§! jobs."
@@ -157,6 +157,7 @@
  xhk_worldark_docs_districts_zone_unity: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_unity$§!:  Adds §I[GetBureaucrat]§! jobs."
  xhk_worldark_docs_districts_zone_spiritualist: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_spiritualist$§!:  Adds §I[GetPriest]§! jobs."
  xhk_worldark_docs_districts_zone_servitor: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_servitor$§!:  Adds §I$job_bio_trophy$§! jobs."
+ xhk_worldark_docs_districts_zone_museum_gestalt: "$TABBED_NEW_LINE$- §C$zone_xhk_worldark_museum_gestalt$§!:  Adds §I[GetBureaucrat]§! jobs and §I$mod_specimens_produces_mult$§! per [GetBureaucrat]."
 
  # SCIENCE
  xhk_worldark_docs_districts_desc_research: "$xhk_worldark_docs_districts_district_research$$xhk_worldark_docs_districts_zone_research$$xhk_worldark_docs_districts_zone_physics$$xhk_worldark_docs_districts_zone_society$$xhk_worldark_docs_districts_zone_engineering$"

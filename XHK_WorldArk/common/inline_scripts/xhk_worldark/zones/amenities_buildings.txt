@@ -1,5 +1,5 @@
 # amenity buildings allowed in the leisure sector zones
-include = {
+included_buildings = {
     building_luxury_residence
     building_paradise_dome
     building_communal_housing

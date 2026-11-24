@@ -922,7 +922,7 @@ zone_xhk_worldark_vivarium = {
 			always = yes
 		}
 		modifier = {
-			planet_farmers_energy_upkeep_add = @xhk_worldark_vivarium_farmer_energy_upkeep
+			planet_farmers_energy_upkeep_add = 0.20
 		}
 	}
 
@@ -1044,6 +1044,78 @@ zone_xhk_worldark_servitor = {
 
     ai_weight_coefficient = 0.5
     ai_priority = 10
+}
+# gestalt museum
+zone_xhk_worldark_museum_gestalt = {
+    icon = GFX_district_specialization_culture_worker
+    inline_script = {
+        script = xhk_worldark/zones/zone_empty_potential
+        NUM_BUILDINGS = 3
+        POTENTIAL = "
+            owner? = {
+                is_gestalt = yes
+                NOT = { has_valid_civic = civic_machine_servitor }
+                has_technology = tech_galactic_archivism
+            }
+        "
+    }
+
+	show_in_tech = tech_galactic_archivism
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		is_gestalt = yes
+		NOT = { has_valid_civic = civic_machine_servitor }
+	}
+
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+    included_buildings = {
+        galactic_history_holomuseum
+        aesthetic_wonders_holomuseum
+        xeno_geology_holomuseum
+    }
+
+
+    # only 20 less to not over penalize
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = 80
+    }
+
+    triggered_country_modifier = {
+        potential = {
+            always = yes
+        }
+        specimens_produces_mult = 1
+        mult = value:xhk_worldark_museum_gestalt_specimen_bonus
+    }
+
+    triggered_planet_modifier = {
+        potential = {
+            always = yes
+        }
+        modifier = {
+            planet_bureaucrats_energy_upkeep_add = 0.15
+        }
+    }
+
+    triggered_desc = {
+        trigger = { always = yes }
+        text = zone_xhk_worldark_museum_gestalt_tt
+    }
+
+    zone_sets = {
+        xhk_worldark_unity
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
 }
 
 ## RESEARCH
@@ -1517,7 +1589,7 @@ zone_xhk_worldark_infiltration_gestalt = {
 			always = yes
 		}
 		modifier = {
-			planet_jobs_patrol_drone_energy_upkeep_add = @xhk_worldark_patrol_drone_energy_upkeep
+			planet_jobs_patrol_drone_energy_upkeep_add = 0.5
 		}
 	}
 
@@ -1616,7 +1688,7 @@ zone_xhk_worldark_propaganda_gestalt = {
 			always = yes
 		}
 		modifier = {
-			planet_jobs_patrol_drone_energy_upkeep_add = @xhk_worldark_patrol_drone_energy_upkeep
+			planet_jobs_patrol_drone_energy_upkeep_add = 0.5
 		}
 	}
 
@@ -1705,7 +1777,7 @@ zone_xhk_worldark_infiltration_propaganda_gestalt = {
 			always = yes
 		}
 		modifier = {
-			planet_jobs_patrol_drone_energy_upkeep_add = @[ xhk_worldark_patrol_drone_energy_upkeep * 2 ]
+			planet_jobs_patrol_drone_energy_upkeep_add = 1
 		}
 	}
 

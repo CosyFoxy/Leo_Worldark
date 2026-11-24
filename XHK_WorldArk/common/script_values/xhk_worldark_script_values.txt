@@ -187,6 +187,19 @@ xhk_worldark_museum_dystopian_specimen_display = {
 	mult = 100
 }
 
+##### MUSEUM GESTALT
+# coordinator covers synapse drones too
+xhk_worldark_museum_gestalt_specimen_bonus = {
+	base = 0
+	add = value:count_owned_job_workforce|JOB|coordinator|
+	mult = @xhk_worldark_museum_gestalt_specimen_per_100
+}
+xhk_worldark_museum_gestalt_specimen_display = {
+	base = 0
+	add = value:xhk_worldark_museum_gestalt_specimen_bonus
+	mult = 100
+}
+
 # vivarium zone totals, for loc
 xhk_worldark_vivarium_districts = {
 	base = 0

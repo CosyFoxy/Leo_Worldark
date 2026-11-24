@@ -29,7 +29,7 @@ zone_sets = {
 	xhk_worldark_urban1
 }
 
-include = {
+included_buildings = {
 	all
 }
 
