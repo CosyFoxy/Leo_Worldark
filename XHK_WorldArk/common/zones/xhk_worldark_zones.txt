@@ -1081,11 +1081,9 @@ zone_xhk_worldark_museum_gestalt = {
         xeno_geology_holomuseum
     }
 
-
-    # only 20 less to not over penalize
     inline_script = {
         script = jobs/zone_unity_jobs_add
-        AMOUNT = 80
+        AMOUNT = 100
     }
 
     triggered_country_modifier = {
