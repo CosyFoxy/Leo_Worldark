@@ -24,6 +24,8 @@ on_monthly_pulse = {
 	events = {
 		# check if birchark can start
 		xhk_worldark_birchark.001
+		# check if flusionark can start
+		xhk_worldark_flusionark.001
 	}
 }
 

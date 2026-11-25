@@ -110,8 +110,8 @@ xhk_worldark_situation_birchark = {
         }
 
 		modifier = {
-			country_energy_produces_mult = -0.15
-			country_alloys_produces_mult = -0.15
+			country_energy_produces_mult = -0.20
+			country_alloys_produces_mult = -0.20
 		}
 		resources = {
 			upkeep = {
@@ -160,19 +160,26 @@ xhk_worldark_situation_birchark = {
 			multiply = 0
 			desc = xhk_worldark_situation_birchark_progress_no_orykta
 			NOT = { target = { has_zone = { zone = zone_xhk_worldark_orykta } } }
-			current_stage >= stage_3
+			OR = {
+				current_stage = stage_3
+				current_stage = stage_4
+				current_stage = stage_5
+			}
 		}
 		modifier = {
 			multiply = 0
 			desc = xhk_worldark_situation_birchark_progress_no_ktisma
 			NOT = { target = { has_zone = { zone = zone_xhk_worldark_ktisma } } }
-			current_stage >= stage_4
+			OR = {
+				current_stage = stage_4
+				current_stage = stage_5
+			}
 		}
 		modifier = {
 			multiply = 0
 			desc = xhk_worldark_situation_birchark_progress_no_physma
 			NOT = { target = { has_zone = { zone = zone_xhk_worldark_physma } } }
-			current_stage >= stage_5
+			current_stage = stage_5
 		}
 	}
 

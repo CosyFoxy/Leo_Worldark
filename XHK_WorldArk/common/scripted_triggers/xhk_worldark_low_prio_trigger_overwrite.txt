@@ -10,12 +10,22 @@ nomad_can_settle_trigger = {
                 has_origin = origin_sacred_path
                 has_origin = origin_heirs_of_the_khan
                 has_origin = origin_forever_cruise
+                AND = {
+                    has_origin = origin_toxic_knights
+                    NOT = {
+                        has_country_flag = toxic_knights_destroyed_keep
+                    }
+                }
                 has_origin = origin_xhk_worldark
             }
         }
         AND = {
             has_origin = origin_forever_cruise
             has_country_flag = forever_cruise_planetfall
+        }
+        AND = {
+            has_origin = origin_toxic_knights
+            has_country_flag = visited_toxic_god_system
         }
     }
 }

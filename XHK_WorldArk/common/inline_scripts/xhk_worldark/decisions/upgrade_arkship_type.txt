@@ -1,6 +1,7 @@
 xhk_upgrade_arkship_$TYPE$_tier_1 = {
 	icon = decision_frameworld_reorganise
 	owned_planets_only = yes
+    important = yes
 
 	enactment_time = 360
 
@@ -45,6 +46,7 @@ xhk_upgrade_arkship_$TYPE$_tier_1 = {
 xhk_upgrade_arkship_$TYPE$_tier_2 = {
 	icon = decision_frameworld_reorganise
 	owned_planets_only = yes
+    important = yes
 
 	enactment_time = 360
 
@@ -90,6 +92,7 @@ xhk_upgrade_arkship_$TYPE$_tier_2 = {
 xhk_upgrade_arkship_$TYPE$_tier_3 = {
 	icon = decision_frameworld_reorganise
 	owned_planets_only = yes
+    important = yes
 
 	enactment_time = 360
 

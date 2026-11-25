@@ -1,0 +1,10 @@
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_sentientmetal_hull }
+    }
+    text = zone_xhk_worldark_sentientmetal_hull
+}
+
+triggered_name = {
+    text = flavor_xhk_worldark_sentientmetal_name
+}

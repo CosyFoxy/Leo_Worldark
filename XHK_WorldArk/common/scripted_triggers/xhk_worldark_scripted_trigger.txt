@@ -126,6 +126,7 @@ xhk_worldark_has_zombie_assembly_facilities = {
 
 ####
 # anything in here can will be ignored
+# colony scope
 xhk_worldark_not_consumed_by_wark = {
 	OR = {
 		# exclude the wark just to be sure
@@ -134,5 +135,36 @@ xhk_worldark_not_consumed_by_wark = {
 		is_planet_class = pc_cosmogenesis_world
 		# for ancient empires i guess
 		ag_is_ancient_ringworld = yes
+		# for anyone who wants it
+		has_carrier_flag = xhk_worldark_excluded_resettlement
+	}
+}
+
+xhk_worldark_can_have_factory_district = {
+	OR = {
+		is_gestalt = no
+		has_valid_civic = civic_machine_servitor
+		has_valid_civic = civic_machine_obsessional_directive
+		country_uses_consumer_goods = yes
+	}
+}
+
+
+# FLUSION INTEGRATION
+xhk_worldark_flusion_is_integratable = {
+	exists = event_target:gigaflusion
+	event_target:gigaflusion = {
+		OR = {
+			is_colonizable = yes
+			is_colony = yes
+		}
+	}
+}
+
+# not the cleanest but checking for if livestock seperately is a pain
+xhk_worldark_can_purge_or_livestock = {
+	OR = {
+		allows_purge = yes
+		allows_slavery = yes
 	}
 }

@@ -1412,6 +1412,25 @@ guiTypes = {
 					}
 				}
 			}
+			containerWindowType = {
+				name = "ideology_window"
+				position = { x = 685 y = 0 }
+				size = { width = 154 height = 50 }
+				clipping = no
+				iconType = {
+					name = "ideology_separator"
+					spriteType = "GFX_planet_info_separator"
+					position = { x = 0 y = 5 }
+				}
+				overlappingElementsBoxType = {
+					name = "ideology_flags"
+					position = { x = 8 y = -4 }
+					size = { x = 150 y = 40 }
+					spacing = 2.0
+					format = left
+					first_on_top = yes
+				}
+			}
 		}
 		### Planet Summary Content
 		containerWindowType = {
@@ -2409,7 +2428,7 @@ guiTypes = {
 							name = "assembly_data"
 							size = { width = 96 height = 64 }
 							position = { x = 0 y = 0 }
-							orientation = upper_right
+							orientation = upper_right 
 							origo = upper_right
 							background = {
 								name = "assembly_data"

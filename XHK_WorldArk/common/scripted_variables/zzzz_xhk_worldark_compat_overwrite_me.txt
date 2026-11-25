@@ -1,0 +1,9 @@
+# Irony this is a placeholder file please ignore it
+
+# fallback vars for other mods to overwrite
+
+# Ancient Empires
+@has_ancient_empire = 0
+
+# Planetary Diversity - More Arcologies
+@has_planetary_diversity_more_arcologies = 0

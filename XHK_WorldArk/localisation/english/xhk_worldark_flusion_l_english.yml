@@ -1,0 +1,72 @@
+﻿l_english:
+
+ # zone
+ zone_xhk_worldark_urban_flusion: "Advanced Expansion"
+ zone_xhk_worldark_urban_flusion_desc: "Deck housing rebuilt based on analysis of Flusion, packing far more living space into the same space."
+
+ # deposit
+ d_xhk_worldark_flusion_plating: "Kaiser Moon Plating"
+ d_xhk_worldark_flusion_plating_desc: "Layered hull plating derived from the defensive architecture of the Kaiser Moon."
+
+ # situation annoying loc
+ xhk_worldark_situation_flusionark: "$xhk_pc_worldark$ Flusion Integration"
+ xhk_worldark_situation_flusionark_type: "$xhk_worldark_situation_flusionark$"
+ xhk_worldark_situation_flusionark_desc: "Flusion, the former seat of the Kaiser, housed billions in comfort on a single world. Adapting its urban engineering to the §I$xhk_pc_worldark$§! could greatly improve our living conditions."
+
+ xhk_worldark_situation_flusionark_stage_viability: "Conducting feasibility analysis of Flusion's urban engineering."
+ xhk_worldark_situation_flusionark_stage_upkeep: "Adapting Flusion's resource management architecture."
+ xhk_worldark_situation_flusionark_stage_efficiency: "Integrating Flusion's space saving technology."
+ xhk_worldark_situation_flusionark_stage_bulwark: "Reinforcing the hull of §I[target.GetName]§! with Kaiser Moon techniques."
+ xhk_worldark_situation_flusionark_complete_tt: "Integration of Flusion technologies into §I[target.GetName]§! will complete."
+
+ xhk_worldark_situation_flusionark_monthly_change_tooltip:0 "The progress of this situation is dependent on the §YApproach§! we pick."
+ xhk_worldark_situation_flusionark_approach_regular: "Standard Budget"
+ xhk_worldark_situation_flusionark_approach_regular_desc: "Fund the integration at a sustainable pace."
+ xhk_worldark_situation_flusionark_approach_extra: "Expanded Budget"
+ xhk_worldark_situation_flusionark_approach_extra_desc: "Pour more resources into the integration to finish it sooner."
+ xhk_worldark_situation_flusionark_approach_frozen: "Progress Frozen"
+ xhk_worldark_situation_flusionark_approach_frozen_desc: "§RUpgrade to a $xhk_worldark_tier_3$ to progress.§!"
+ xhk_worldark_situation_flusionark_approach_frozen_tt: "The integration is paused until the $xhk_pc_worldark$ is a §Y$xhk_worldark_tier_3$§! or higher."
+ xhk_worldark_situation_flusionark_progress_extra: "Expanded Budget"
+ xhk_worldark_situation_flusionark_progress_no_lvl: "Not $xhk_worldark_tier_3$ or higher"
+ xhk_worldark_situation_flusionark_progress_no_zone: "Missing §I$zone_xhk_worldark_urban_flusion$§! Zone"
+
+ # events
+ xhk_worldark_flusionark.002.title: "Possibility of $xhk_pc_worldark$ Flusion Integration"
+ xhk_worldark_flusionark.002.desc: "With the Kaiser defeated, Flusion lies open to us. The urban engineering that sustained the Imperium's capital could be adapted for the $xhk_pc_worldark$. We should conduct a feasibility analysis."
+ xhk_worldark_flusionark.002.a: "We must analyze Flusion."
+
+ xhk_worldark_flusionark.010.title: "Flusion Analysis Complete"
+ xhk_worldark_flusionark.010.desc: "Our scans of Flusion have shown that its urban systems are compatible with the $xhk_pc_worldark$. Further research is required."
+ xhk_worldark_flusionark.010.a: "Begin integration."
+ xhk_worldark_flusionark.010.att: "Begins the §I$xhk_worldark_situation_flusionark$§! situation."
+
+ xhk_worldark_flusionark_chain_title: "Flusion $xhk_pc_worldark$ Integration"
+ xhk_worldark_flusionark_chain_desc: ""
+
+ #project
+ XHK_WORLDARK_FLUSIONARK_ANALYSIS: "§IFlusion $xhk_pc_worldark$§! Analysis"
+ XHK_WORLDARK_FLUSIONARK_ANALYSIS_DESC: "To analyze the feasibility of using Flusion's urban engineering in the $xhk_pc_worldark$, we need to do scans of Flusion.\n\n§_The line below says that a starbase in orbit is needed, this means use the $xhk_pc_worldark$ for the special project.§!"
+
+ # situation events
+ xhk_worldark_flusionark.1001.title: "Flusion Integration: Feasible"
+ xhk_worldark_flusionark.1001.desc: "Our engineers have adapted Flusion's arcology layouts to the decks of the $xhk_pc_worldark$. Extra habitation space is now available."
+ xhk_worldark_flusionark.1001.a: "Good."
+ xhk_worldark_flusionark.1001.att: "Every §Y$zone_xhk_worldark_urban$§! upgrades into a §Y$zone_xhk_worldark_urban_flusion$§!, providing more housing."
+
+ xhk_worldark_flusionark.1002.title: "Flusion Integration: Resource Management"
+ xhk_worldark_flusionark.1002.desc: "Flusion's tightly integrated supply networks let its workers do more with less. These methods have been implemented across the $xhk_pc_worldark$."
+ xhk_worldark_flusionark.1002.a: "Excellent."
+ xhk_worldark_flusionark.1002.att: "§Y$zone_xhk_worldark_urban_flusion$§! zones reduce upkeep from jobs."
+
+ xhk_worldark_flusionark.1003.title: "Flusion Integration: Expansion"
+ xhk_worldark_flusionark.1003.desc: "The second layer of Flusion's urban planning techniques have been implemented, freeing space throughout the $xhk_pc_worldark$."
+ xhk_worldark_flusionark.1003.a: "Excellent."
+ xhk_worldark_flusionark.1003.att: "§Y$zone_xhk_worldark_urban_flusion$§! zones increase the maximum district amount."
+
+ XHK_TOAST_FLUSIONARK_COMPLETE_TITLE: "$xhk_worldark_situation_flusionark$ Complete"
+ XHK_TOAST_FLUSIONARK_COMPLETE_DESC: "The §Y$xhk_worldark_situation_flusionark$§! has finished."
+ xhk_worldark_flusionark.1010.title: "Flusion Integration: Complete"
+ xhk_worldark_flusionark.1010.desc: "The last of Flusion's secrets have been integrated into the $xhk_pc_worldark$. Its hull is now reinforced with plating modeled on the Kaiser Moon."
+ xhk_worldark_flusionark.1010.a: "Finally."
+ xhk_worldark_flusionark.1010.att: "The $xhk_pc_worldark$ gains §GDamage Reduction§!."

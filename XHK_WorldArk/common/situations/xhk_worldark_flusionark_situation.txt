@@ -1,0 +1,147 @@
+# target the colony
+xhk_worldark_situation_flusionark = {
+	picture = GFX_evt_city_planet
+
+	situation_log_category = xhk_worldark_situation_category
+	complete_icon = GFX_situation_outcome_unknown
+	complete_icon_frame = GFX_situation_outcome_frame_blue
+
+	stages = {
+		stage_1 = {
+			icon = GFX_situation_stage_1
+			icon_background = GFX_situation_stage_frame_blue
+			end = 12
+			custom_tooltip = xhk_worldark_situation_flusionark_stage_viability
+		}
+		### DECK EXPANSIONS BECOME ADVANCED EXPANSIONS HERE
+		stage_2 = {
+			icon = GFX_situation_stage_2
+			icon_background = GFX_situation_stage_frame_blue
+			end = 36
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_flusionark.1001 }
+				target = {
+					set_carrier_flag = xhk_worldark_flusion_advanced_expansion
+					# zone swap
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_flusionark_stage_upkeep
+		}
+		stage_3 = {
+			icon = GFX_situation_stage_3
+			icon_background = GFX_situation_stage_frame_blue
+			end = 60
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_flusionark.1002 }
+				target = {
+					set_carrier_flag = xhk_worldark_flusion_expansion_upkeep
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_flusionark_stage_efficiency
+		}
+		stage_4 = {
+			icon = GFX_situation_stage_4
+			icon_background = GFX_situation_stage_frame_blue
+			end = 96
+			on_first_enter = {
+				situation_event = { id = xhk_worldark_flusionark.1003 }
+				target = {
+					set_carrier_flag = xhk_worldark_flusion_expansion_efficiency
+				}
+			}
+			custom_tooltip = xhk_worldark_situation_flusionark_stage_bulwark
+		}
+	}
+
+	approach = {
+		name = xhk_worldark_situation_flusionark_approach_regular
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_yellow
+		default = yes
+
+		potential = {
+			target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_3 }
+		}
+
+		modifier = {
+			country_energy_produces_mult = -0.10
+			country_alloys_produces_mult = -0.10
+		}
+		resources = {
+			upkeep = {
+				physics_research = 750
+				society_research = 750
+				engineering_research = 750
+				unity = 1000
+			}
+		}
+	}
+
+	approach = {
+		name = xhk_worldark_situation_flusionark_approach_extra
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_green
+
+		potential = {
+			target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_3 }
+		}
+
+		modifier = {
+			country_energy_produces_mult = -0.15
+			country_alloys_produces_mult = -0.15
+		}
+		resources = {
+			upkeep = {
+				physics_research = 1250
+				society_research = 1250
+				engineering_research = 1250
+				unity = 1500
+			}
+		}
+	}
+
+	approach = {
+		name = xhk_worldark_situation_flusionark_approach_frozen
+		icon = GFX_situation_approach_balance_sheet
+		icon_background = GFX_situation_approach_bg_red
+
+		potential = {
+			target.carrier.starbase = { has_starbase_size < xhk_worldark_tier_3 }
+		}
+		on_select = { custom_tooltip = xhk_worldark_situation_flusionark_approach_frozen_tt }
+	}
+
+	monthly_progress = {
+		base = 1
+
+		modifier = {
+			add = 0.2
+			desc = xhk_worldark_situation_flusionark_progress_extra
+			current_situation_approach = xhk_worldark_situation_flusionark_approach_extra
+		}
+
+		# not lvl 3
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_flusionark_progress_no_lvl
+			NOT = { target.carrier.starbase = { has_starbase_size >= xhk_worldark_tier_3 } }
+		}
+
+		# need an advanced expansion from stage 2 onwards
+		modifier = {
+			multiply = 0
+			desc = xhk_worldark_situation_flusionark_progress_no_zone
+			NOT = { target = { has_zone = { zone = zone_xhk_worldark_urban_flusion } } }
+			NOT = { current_stage = stage_1 }
+		}
+	}
+
+	on_progress_complete = {
+		custom_tooltip = xhk_worldark_situation_flusionark_complete_tt
+		hidden_effect = {
+			target = { add_deposit = d_xhk_worldark_flusion_plating }
+			situation_event = { id = xhk_worldark_flusionark.1010 }
+		}
+		set_situation_locked = yes
+	}
+}

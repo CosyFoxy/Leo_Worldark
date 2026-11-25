@@ -2,6 +2,7 @@
 xhk_worldark_add_logistics_ship = {
     icon = decision_frameworld_reorganise
     owned_planets_only = yes
+    important = yes
 
     enactment_time = 360
 
@@ -51,6 +52,7 @@ xhk_worldark_add_logistics_ship = {
 
 xhk_worldark_alloy_expansion_decision = {
 	owned_planets_only = yes
+    important = yes
 
 	enactment_time = 360
 

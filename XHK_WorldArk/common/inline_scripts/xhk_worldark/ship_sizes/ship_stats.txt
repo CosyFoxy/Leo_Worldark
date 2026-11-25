@@ -20,6 +20,7 @@ modifier = {
 
     # planet stuff
     planet_max_districts_add = @xhk_worldark_shipstat_districts_t$TIER$
+    planet_building_capacity_add = @xhk_worldark_shipstat_buildqueue_t$TIER$
 }
 ship_modifier = {
     ship_starbase_stockpile_collection_rate_add = @xhk_worldark_shipstat_collection_t$TIER$

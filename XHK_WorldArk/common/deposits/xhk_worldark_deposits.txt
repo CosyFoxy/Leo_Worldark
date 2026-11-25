@@ -69,20 +69,20 @@ d_xhk_worldark_base = {
 		planet_artificial_max_districts_add = 2
 	}
 
+}
+
+## SPECIALIZED ARKSHIP BUFFS
+d_xhk_worldark_specialization = {
+	is_for_colonizable = yes
+	icon = d_frameworld_core
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
 	########################################################################################################
 	# ADDING ARKSHIP TYPE BUFFS
 	########################################################################################################
-	# logistic
-	triggered_planet_modifier = {
-		potential = {
-			exists = owner
-			owner = {
-				xhk_has_worldark_origin = yes
-			}
-		}
-		ship_starbase_stockpile_collection_rate_add = 200
-		multiplier = xhk_worldark_logistics_expansions
-	}
 
 	triggered_planet_modifier = {
 		potential = {
@@ -500,9 +500,54 @@ d_xhk_worldark_logistic_ship_bay = {
 		potential = { always = yes }
 		xhk_worldark_expansion_count = 1
 		planet_artificial_max_districts_add = @xhk_worldark_logisticbay_size
+		ship_starbase_stockpile_collection_rate_add = 200
 		multiplier = xhk_worldark_logistics_expansions
 	}
 
     drop_weight = { weight = 0 }
     potential = { always = no }
+}
+
+########################################################
+# THE UFKCING NERFS
+d_xhk_worldark_compensation = {
+	is_for_colonizable = yes
+	icon = d_frameworld_core
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
+	########################################################################################################
+	# HDS but NOT, specifically for the wark
+	########################################################################################################
+
+	# Militia Conscription: cancel 90% of the arkship hull it grants per civilian / maintenance drone job
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_active_tenet = tenet_militia_conscription
+			}
+		}
+		ship_hull_mult = -1
+		multiplier = value:xhk_worldark_compensation_militia_hull
+	}
+}
+
+
+########################################################
+## FLUSION INTEGRATION REWARD
+d_xhk_worldark_flusion_plating = {
+	is_for_colonizable = yes
+	icon = d_station_reactor
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
+	planet_modifier = {
+		ship_damage_reduction_mult = 0.05
+		ship_damage_reduction_add = 3
+	}
 }

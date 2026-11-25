@@ -1,0 +1,16 @@
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_museum_gestalt }
+    }
+    text = zone_xhk_worldark_museum_gestalt
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_museum_gestalt }
+    }
+    text = zone_xhk_worldark_museum_gestalt_desc
+}
+
+triggered_name = {
+    text = city_synapse_hive_1
+}

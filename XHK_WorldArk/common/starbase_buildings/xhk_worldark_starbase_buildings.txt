@@ -293,6 +293,52 @@ xhk_worldark_penal_system_gestalt = {
 	}
 }
 
+xhk_worldark_purge_booster = {
+	icon = "GFX_cordyceptic_reanimation_facility"
+	starbase_type = arkship
+	construction_days = 360
+	category = sm_colony_cat
+
+	starbase_limit = {
+		base = 1
+	}
+
+	show_in_tech = xhk_tech_worldark_purge_booster
+
+	potential = {
+		xhk_is_worldark_starbase = yes
+		owner? = {
+			has_technology = xhk_tech_worldark_purge_booster
+		}
+	}
+
+	possible = {
+		has_starbase_size >= xhk_worldark_tier_3
+	}
+
+	resources = {
+		category = starbase_arkship_upgrades
+		cost = {
+			alloys = 750
+			unity = 250
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	planet_modifier = {
+		pop_cat_purge_bonus_workforce_mult = 0.15
+		livestock_jobs_bonus_workforce_mult = 0.15
+	}
+
+	custom_tooltip = xhk_worldark_purge_booster_tt
+
+	ai_weight = {
+		weight = 100
+	}
+}
+
 ############################################################
 ### CIVIC INTEGRATION
 
