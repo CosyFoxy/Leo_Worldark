@@ -168,3 +168,56 @@ xhk_worldark_can_purge_or_livestock = {
 		allows_slavery = yes
 	}
 }
+
+#COMPAT ZONE TRIGGERS
+
+xhk_is_infiltration_zone = {
+    has_zone = { zone = zone_xhk_worldark_infiltration }
+}
+
+xhk_is_infiltration_zone_gestalt = {
+    has_zone = { zone = zone_xhk_worldark_infiltration_gestalt }
+}
+
+xhk_is_propaganda_zone = {
+    has_zone = { zone = zone_xhk_worldark_propaganda }
+}
+
+xhk_is_propaganda_zone_gestalt = {
+    has_zone = { zone = zone_xhk_worldark_propaganda_gestalt }
+}
+
+xhk_is_infiltration_propaganda_zone = {
+    has_zone = { zone = zone_xhk_worldark_infiltration_propaganda }
+}
+
+xhk_is_infiltration_propaganda_zone_gestalt = {
+    has_zone = { zone = zone_xhk_worldark_infiltration_propaganda_gestalt }
+}
+
+xhk_is_survey_zone = {
+    OR = {
+        has_zone = { zone = zone_xhk_worldark_survey }
+        has_zone = { zone = zone_xhk_worldark_survey_decompressor }
+    }
+}
+
+xhk_is_vivarium_zone = {
+    has_zone = { zone = zone_xhk_worldark_vivarium }
+}
+
+xhk_is_museum_zone = {
+    has_zone = { zone = zone_xhk_worldark_museum }
+}
+
+xhk_is_museum_zone_dystopian = {
+    has_zone = { zone = zone_xhk_worldark_museum_dystopian }
+}
+
+xhk_is_museum_zone_gestalt = {
+    has_zone = { zone = zone_xhk_worldark_museum_gestalt }
+}
+
+xhk_is_museum_zone_servitor = {
+    has_zone = { zone = zone_xhk_worldark_museum_servitor }
+}
