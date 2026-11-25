@@ -1,0 +1,16 @@
+triggered_name = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_museum_servitor }
+    }
+    text = zone_xhk_worldark_museum_servitor
+}
+triggered_flavor_desc = {
+    trigger = {
+        has_zone = { zone = zone_xhk_worldark_museum_servitor }
+    }
+    text = zone_xhk_worldark_museum_servitor_desc
+}
+
+triggered_name = {
+    text = city_unity_bio_trophy_machine_1
+}

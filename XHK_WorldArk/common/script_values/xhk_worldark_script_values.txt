@@ -200,6 +200,19 @@ xhk_worldark_museum_gestalt_specimen_display = {
 	mult = 100
 }
 
+##### MUSEUM SERVITOR
+# scales on num districts
+xhk_worldark_museum_servitor_districts = {
+	base = 0
+	add = value:count_districts|TYPE|xhk_worldark_unity_servitor|
+}
+xhk_worldark_museum_servitor_specimen_display = {
+	base = 0
+	add = value:xhk_worldark_museum_servitor_districts
+	mult = @xhk_worldark_museum_servitor_specimen_per_district
+	mult = 100
+}
+
 # vivarium zone totals, for loc
 xhk_worldark_vivarium_districts = {
 	base = 0

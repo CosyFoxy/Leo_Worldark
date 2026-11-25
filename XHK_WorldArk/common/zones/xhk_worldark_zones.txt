@@ -1117,6 +1117,59 @@ zone_xhk_worldark_museum_gestalt = {
     ai_weight_coefficient = 0.5
     ai_priority = 5
 }
+# servitor museum
+zone_xhk_worldark_museum_servitor = {
+    icon = GFX_district_specialization_culture_worker
+    inline_script = {
+        script = xhk_worldark/zones/zone_empty_potential
+        NUM_BUILDINGS = 3
+        POTENTIAL = "
+            owner? = {
+                has_valid_civic = civic_machine_servitor
+                has_technology = tech_galactic_archivism
+            }
+        "
+    }
+
+	show_in_tech = tech_galactic_archivism
+	show_tech_unlock_if = {
+		xhk_has_worldark_origin = yes
+		has_valid_civic = civic_machine_servitor
+	}
+
+	inline_script = {
+		script = zones/shared_city_non_urban_zone_modifiers
+	}
+
+    included_building_sets = {
+        unity
+        urban_automation
+    }
+    included_buildings = {
+        galactic_history_holomuseum
+        aesthetic_wonders_holomuseum
+        xeno_geology_holomuseum
+    }
+
+    inline_script = {
+        script = jobs/zone_unity_jobs_add
+        AMOUNT = 75
+    }
+
+    triggered_district_country_modifier = {
+        potential = {
+            always = yes
+        }
+        specimens_produces_mult = @xhk_worldark_museum_servitor_specimen_per_district
+    }
+
+    zone_sets = {
+        xhk_worldark_unity
+    }
+
+    ai_weight_coefficient = 0.5
+    ai_priority = 5
+}
 
 ## RESEARCH
 ###########################################################

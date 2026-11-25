@@ -402,6 +402,10 @@
  zone_xhk_worldark_museum_gestalt_tt: "§ISpecial Effect:§!\n- Per §Y100§! [GetBureaucratPlural]: §G+$@xhk_worldark_museum_gestalt_specimen_per_100|%2$§! $mod_specimens_produces_mult$"
  zone_xhk_worldark_museum_gestalt_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $mod_specimens_produces_mult$: §G+[xhk_worldark_GetMuseumGestaltSpecimenBonus]%§!"
 
+ zone_xhk_worldark_museum_servitor: "Heritage Galleries"
+ zone_xhk_worldark_museum_servitor_desc: "Galleries where our cherished organics may marvel at the specimens gathered from the galaxy, each exhibit kept in perfect condition."
+ zone_xhk_worldark_museum_servitor_dtt: "§IFrom Zone:§!$TABBED_NEW_LINE$ - $mod_specimens_produces_mult$: §G+[xhk_worldark_GetMuseumServitorSpecimenBonus]%§!"
+
  zone_xhk_worldark_research: "$zone_research$"
  zone_xhk_worldark_research_desc: "$zone_research_desc$"
 

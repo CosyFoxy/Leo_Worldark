@@ -798,8 +798,13 @@ district_xhk_worldark_unity_servitor = {
         job_bio_trophy_add = 1000
     }
 
-	triggered_name = {
-		text = city_unity_bio_trophy_machine_1
+	triggered_desc = {
+		trigger = { has_zone = { zone = zone_xhk_worldark_museum_servitor } }
+		text = zone_xhk_worldark_museum_servitor_dtt
+	}
+
+	inline_script = {
+		script = xhk_worldark/district_flavor/unity_servitor_flavor
 	}
 }
 

@@ -181,4 +181,5 @@
 @xhk_worldark_museum_specimen_per_100 = 0.015
 @xhk_worldark_museum_dystopian_specimen_per_district = 0.08
 @xhk_worldark_museum_gestalt_specimen_per_100 = 0.0033
+@xhk_worldark_museum_servitor_specimen_per_district = 0.04
 # LOAD BEARING EOF
