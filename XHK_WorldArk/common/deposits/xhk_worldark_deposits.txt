@@ -509,6 +509,34 @@ d_xhk_worldark_logistic_ship_bay = {
 }
 
 ########################################################
+# THE UFKCING NERFS
+d_xhk_worldark_compensation = {
+	is_for_colonizable = yes
+	icon = d_frameworld_core
+	category = deposit_cat_rare
+
+	drop_weight = { weight = 0 }
+	potential = { always = no }
+
+	########################################################################################################
+	# HDS but NOT, specifically for the wark
+	########################################################################################################
+
+	# Militia Conscription: cancel 90% of the arkship hull it grants per civilian / maintenance drone job
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = {
+				has_active_tenet = tenet_militia_conscription
+			}
+		}
+		ship_hull_mult = -1
+		multiplier = value:xhk_worldark_compensation_militia_hull
+	}
+}
+
+
+########################################################
 ## FLUSION INTEGRATION REWARD
 d_xhk_worldark_flusion_plating = {
 	is_for_colonizable = yes

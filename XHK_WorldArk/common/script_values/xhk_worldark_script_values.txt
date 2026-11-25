@@ -312,3 +312,13 @@ xhk_worldark_survey_bonus_display = {
 	add = value:xhk_worldark_survey_bonus
 	mult = 100
 }
+
+##### COMPENSATION
+# Militia Conscription
+xhk_worldark_compensation_militia_hull = {
+	base = 0
+	add = owner.value:count_owned_job_workforce|JOB|civilian|
+	add = owner.value:count_owned_job_workforce|JOB|maintenance_drone|
+	mult = owner.modifier:tenet_militia_conscription_arkship_hull_modifier
+	mult = 0.95
+}

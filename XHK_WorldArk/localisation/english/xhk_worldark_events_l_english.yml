@@ -28,7 +28,7 @@
 
  ####################
  # EXPANSION
- xhk_worldark_docs_expansion: "1) Expansion"
+ xhk_worldark_docs_expansion: "A) Expansion"
  xhk_worldark_docs_expansion_desc: "$xhk_worldark_docs_expansion_desc_1$$xhk_worldark_docs_expansion_desc_2$$xhk_worldark_docs_expansion_desc_3$$xhk_worldark_docs_expansion_desc_4$$xhk_worldark_docs_expansion_desc_5$$xhk_worldark_docs_expansion_desc_6$$xhk_worldark_docs_expansion_desc_7$$xhk_worldark_docs_expansion_desc_8$$xhk_worldark_docs_expansion_desc_9$$xhk_worldark_docs_expansion_desc_10$$xhk_worldark_docs_expansion_desc_11$[owner.xhk_worldark_getVirtualDocumentation]"
  xhk_worldark_docs_expansion_desc_1: "The $xhk_pc_worldark$ expands through the dismantlement of other stellar objects. These are listed below:\n"
  xhk_worldark_docs_expansion_desc_2: "$TABBED_NEW_LINE$- $xhk_harvest_plus_small$ §G£districtadd£Districts§! from the special §I$xhk_worldark_size_harvest$§! arkship action, when used on a stellar body."
@@ -45,7 +45,7 @@
 
  ####################
  # POPULATION
- xhk_worldark_docs_population: "2) Population"
+ xhk_worldark_docs_population: "B) Population"
  xhk_worldark_docs_population_desc: "$xhk_worldark_docs_population_desc_1$$xhk_worldark_docs_population_desc_2$$xhk_worldark_docs_population_desc_3$\n[Owner.xhk_worldark_getPopulationDocumentation]"
  xhk_worldark_docs_population_desc_1: "In order to keep the population of the $xhk_pc_worldark$ mildly competitive, it gains extra growth jobs based on the size of the $xhk_pc_worldark$."
  xhk_worldark_docs_population_desc_2: "\n\nPer £district£district increase, §G+10 Pop Growth§! jobs are added, which are then turned into actual jobs / buffs based on your empire and the buildings."
@@ -76,7 +76,7 @@
 
  ####################
  # DISTRICTS + ZONES
- xhk_worldark_docs_districts: "3) Districts and Zones"
+ xhk_worldark_docs_districts: "C) Districts and Zones"
  xhk_worldark_docs_districts_desc: "$xhk_worldark_docs_districts_desc_1$$xhk_worldark_docs_districts_desc_group_city$$xhk_worldark_docs_districts_desc_group_manufactured$$xhk_worldark_docs_districts_desc_group_raw$$xhk_worldark_docs_districts_desc_group_intellectual$$xhk_worldark_docs_districts_desc_group_warfare$$xhk_worldark_docs_districts_desc_group_strategicresource$$xhk_worldark_docs_districts_desc_group_utility$$xhk_worldark_docs_districts_desc_group_civic$"
  xhk_worldark_docs_districts_desc_1: "The $xhk_pc_worldark$ contains many different districts and zones. Note that almost all districts are housing negative. Some districts gain extra features from civics, listed in the civics section. Which ones are available to your empire are listed below (ignoring tech restrictions):"
 
@@ -263,7 +263,7 @@
 
  ####################
  # ARKSHIP LEVELS
- xhk_worldark_docs_ship_levels: "4) $xhk_pc_worldark$ Ship Levels"
+ xhk_worldark_docs_ship_levels: "D) $xhk_pc_worldark$ Ship Levels"
  xhk_worldark_docs_ship_levels_desc: "$xhk_worldark_docs_ship_levels_intro$$xhk_worldark_docs_ship_levels_t1$$xhk_worldark_docs_ship_levels_t2$$xhk_worldark_docs_ship_levels_t3$$xhk_worldark_docs_ship_levels_t4$$xhk_worldark_docs_ship_levels_t5$$xhk_worldark_docs_ship_levels_t6$$xhk_worldark_docs_ship_levels_t7$$xhk_worldark_docs_ship_levels_t8$$xhk_worldark_docs_ship_levels_t9$$xhk_worldark_docs_ship_levels_t10$$xhk_worldark_docs_ship_levels_megaengineering$$xhk_worldark_docs_ship_levels_t11$$xhk_worldark_docs_ship_levels_t12$"
  xhk_worldark_docs_ship_levels_intro: "The $xhk_pc_worldark$ gains multiple bonuses when leveling up the ship itself. Alongside increasingly large defensive stats and a mixture of the vanilla arkship bonuses, every level also grants §G+5000 $mod_situation_nomad_economy_max_progress_add$§!.\n\nThe list below notes the starbase slots, districts, and weapons at each level.\n"
 
@@ -290,7 +290,7 @@
 
  ####################
  # UPGRADES
- xhk_worldark_docs_ship_upgrade: "5) Arkship Upgrades"
+ xhk_worldark_docs_ship_upgrade: "E) Arkship Upgrades"
  xhk_worldark_docs_ship_upgrade_desc: "$xhk_worldark_docs_ship_upgrade_type$"
 
  xhk_worldark_docs_ship_upgrade_type: "$xhk_worldark_docs_ship_upgrade_type_1$$xhk_worldark_docs_ship_upgrade_type_2$$xhk_worldark_docs_ship_upgrade_type_3$$xhk_worldark_docs_ship_upgrade_type_4$$xhk_worldark_docs_ship_upgrade_type_5$"
@@ -302,7 +302,7 @@
 
  ####################
  # CIVICS
- xhk_worldark_docs_special_civic: "6) Civic Integration"
+ xhk_worldark_docs_special_civic: "F) Civic Integration"
  xhk_worldark_docs_special_civic_desc: "$xhk_worldark_docs_special_civic_desc_1$\n[Owner.xhk_worldark_getCivicDocumentation]"
  xhk_worldark_docs_special_civic_desc_1: "The $xhk_pc_worldark$ has special integration with specific civics to better fit their fantasy and compensate for the one-planet playstyle."
 
@@ -343,7 +343,7 @@
 
  ####################
  # MEGAS
- xhk_worldark_docs_mega: "7) Special Systems / Modules / Spinals"
+ xhk_worldark_docs_mega: "G) Special Systems / Modules / Spinals"
  xhk_worldark_docs_mega_desc: "$xhk_worldark_docs_mega_init$$xhk_worldark_docs_system$$xhk_worldark_docs_spinal$$xhk_worldark_docs_core_spinal$"
  xhk_worldark_docs_mega_init: "The $xhk_pc_worldark$ has special systems and modules that can give special effects, such as mimicking some vanilla megastructures."
 
@@ -373,7 +373,7 @@
 
  ####################
  # INTEGRATION
- xhk_worldark_docs_integration: "8) Special Integration Situations"
+ xhk_worldark_docs_integration: "H) Special Integration Situations"
  xhk_worldark_docs_integration_desc: "$xhk_worldark_docs_integration_init$$xhk_worldark_docs_flusion_integration$$xhk_worldark_docs_birch_integration$"
  xhk_worldark_docs_integration_init: "The $xhk_pc_worldark$ can research specific habitables to gain some of their bonuses through a lengthy situation."
 
@@ -387,7 +387,7 @@
 
  ####################
  # CROSS-MOD COMPATIBILITY
- xhk_worldark_docs_compat: "9) Cross-Mod Compatibility"
+ xhk_worldark_docs_compat: "I) Cross-Mod Compatibility"
  xhk_worldark_docs_compat_desc: "$xhk_worldark_docs_compat_init$$xhk_worldark_docs_compat_ancient_empires$$xhk_worldark_docs_compat_pd_arcologies$"
  xhk_worldark_docs_compat_init: "The $xhk_pc_worldark$ has special compatibility hooks for the following mods:"
  xhk_worldark_docs_compat_not_loaded: "- §RMod not loaded§!"
@@ -397,6 +397,14 @@
 
  xhk_worldark_docs_compat_pd_arcologies: "\n\n§CPlanetary Diversity - More Arcologies:§!\n[xhk_worldark_getCompatDoc_PDArcologies]"
  xhk_worldark_docs_compat_pd_arcologies_loaded: "- The §Y$xhk_pc_worldark$§! §Gdoes not lose districts§! to §YPD Arcologies§! capital deposits."
+
+ ####################
+ # ONE-ARK COMPENSATION
+ xhk_worldark_docs_nerfs: "J) One-Ark Compensation"
+ xhk_worldark_docs_nerfs_desc: "$xhk_worldark_docs_nerfs_init$$xhk_worldark_docs_nerfs_militia$"
+ xhk_worldark_docs_nerfs_init: "Some effects scale with job counts, and become far stronger when every pop is on a single $xhk_pc_worldark$. This is seperate from HDS, but similar. The following are reduced to compensate:"
+
+ xhk_worldark_docs_nerfs_militia: "\n\n§YTenet:§! §C$tenet_militia_conscription$§! / §C$tenet_militia_conscription_hive$§! / §C$tenet_militia_conscription_machine$§!:$TABBED_NEW_LINE$- Reduces effective $mod_tenet_militia_conscription_arkship_hull_modifier$ from civilians by: §R-95%§!"
 
 
 

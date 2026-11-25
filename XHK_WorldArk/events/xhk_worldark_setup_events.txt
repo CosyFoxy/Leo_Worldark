@@ -336,6 +336,9 @@ country_event = {
             # specialized arkship buffs
             add_deposit = d_xhk_worldark_specialization
 
+            # one-ark empire nerfs
+            add_deposit = d_xhk_worldark_compensation
+
             # pop deposit
             if = {
                 limit = {
@@ -574,6 +577,13 @@ country_event = {
             id = xhk_worldark_docs_chain.9
             name = "xhk_worldark_docs_compat"
             desc = "xhk_worldark_docs_compat_desc"
+            event_chain = "xhk_worldark_docs_chain"
+            location = no_scope
+        }
+        create_point_of_interest = {
+            id = xhk_worldark_docs_chain.10
+            name = "xhk_worldark_docs_nerfs"
+            desc = "xhk_worldark_docs_nerfs_desc"
             event_chain = "xhk_worldark_docs_chain"
             location = no_scope
         }
