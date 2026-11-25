@@ -75,6 +75,9 @@
   xhk_tech_worldark_art_installation:99 "Integrated Mega Art Installation"
   xhk_tech_worldark_art_installation_desc:99 "Studies of settles empires has given us insight into their creative pursuits. Setting up a station to analyze how we can adapt specific forms of creativity to the void could prove useful."
   
+  xhk_tech_worldark_purge_booster:99 "Processing Deck"
+  xhk_tech_worldark_purge_booster_desc:99 "$sm_xhk_worldark_purge_booster_desc$"
+  
   xhk_harvest_plus_small:99 "§G+$@xhk_worldark_harvest_size_small|0$§!"
   xhk_harvest_plus_large:99 "§G+$@xhk_worldark_harvest_size_large|0$§!"
   xhk_harvest_plus_vlarge:99 "§G+$@xhk_worldark_harvest_size_vlarge|0$§!"

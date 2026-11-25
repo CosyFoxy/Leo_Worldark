@@ -12,6 +12,10 @@
   flavor_xhk_worldark_birch_name:99 "Enhanced Support Systems"
   flavor_xhk_worldark_birch_proto_name:99 "Prototype Support Systems"
   
+  
+  zone_xhk_worldark_birchextra:99 ""
+  zone_xhk_worldark_birchextra_desc:99 ""
+  #empty cause its the gov zone equivalent
   zone_xhk_worldark_orykta:99 "Orykta Support"
   zone_xhk_worldark_orykta_desc:99 "Support complexes to enhance the extractive industries of the $xhk_pc_worldark$."
   zone_xhk_worldark_ktisma:99 "Ktisma Support"
@@ -89,7 +93,8 @@
   xhk_worldark_birchark.010.att:99 "Begins the §I$xhk_worldark_situation_birchark$§! situation."
   
   xhk_worldark_birchark_chain_title:99 "Birch $xhk_pc_worldark$ Integration"
-  xhk_worldark_birchark_chain_desc:99 "" #intentionally blank
+  xhk_worldark_birchark_chain_desc:99 ""
+  #intentionally blank
   
   #project
   XHK_WORLDARK_BIRCHARK_ANALYSIS:99 "§IBirch $xhk_pc_worldark$§! Analysis"
