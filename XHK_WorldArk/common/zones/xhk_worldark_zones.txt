@@ -1117,7 +1117,6 @@ zone_xhk_worldark_museum_gestalt = {
     ai_weight_coefficient = 0.5
     ai_priority = 5
 }
-# servitor museum
 zone_xhk_worldark_museum_servitor = {
     icon = GFX_district_specialization_culture_worker
     inline_script = {
